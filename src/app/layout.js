@@ -19,11 +19,26 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+      <body>
+        <div className="navbar bg-base-100 shadow-sm px-6">
+          <div className="flex-1">
+            <a href="/" className="text-xl font-bold">YourCompany</a>
+          </div>
+          <div className="flex gap-4">
+            <a href="/services">Services</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+          </div>
+        </div>
+
+        <main className="min-h-screen">
+          {children}
+        </main>
+
+        <footer className="footer footer-center p-6 bg-base-200">
+          <p>© {new Date().getFullYear()} YourCompany</p>
+        </footer>
+    </body>
+    </html >
   );
 }
