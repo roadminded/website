@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BarChart3, Server, Layers } from "lucide-react";
 
 export const metadata = {
   title: "Services",
@@ -6,38 +7,53 @@ export const metadata = {
 
 const SERVICES = [
   {
-    title: "Transport & Tunnel Intelligence Software",
+    title: "Transport & Tunnel Intelligence Platform",
+    icon: BarChart3,
     description:
-      "Advanced analytics platforms transforming traffic, tunnel, and VMS data into actionable intelligence.",
+      `A modular analytics and decision-support platform for tunnel operators,
+      highways and traffic control centres. This platform transforms raw traffic
+      and infrastructure data into actionable operational intelligence.`,
     bullets: [
-      "Tunnel Traffic Management analytics & post-incident analysis",
-      "Real-time & historical VMS data analytics",
-      "Decision-support dashboards and KPIs",
-      "Standards-compliant integration (DATEX II, JSON, OpenLR)",
-      "Cloud-native, scalable architecture",
+      "Real-time and historical Variable Message Sign (VMS) analytics",
+      "Incident and post-incident traffic analysis",
+      "Standards-based integrations (e.g. DATEX II, JSON, OpenLR)",
+      "Cloud-native and scalable deployment",
     ],
+    note:
+      "",
   },
   {
-    title: "Smart Infrastructure Data & AI Solutions",
+    title: "Transport Software Engineering",
+    icon: Server,
     description:
-      "AI-driven software supporting smarter and greener infrastructure maintenance strategies.",
+      `Design and development of interoperable, standards-based transport
+      software components and applications. We support operators and
+      technology providers in building maintainable and scalable ITS backend systems.`,
     bullets: [
-      "Infrastructure data pipeline design",
-      "Predictive maintenance analytics",
-      "AI-assisted asset condition modeling",
-      "Integration into smart city platforms",
+      "Backend platform and API development",
+      "Open-data-driven applications",
+      "Transport data pipelines and modelling",
+      "Integration into existing ITS stacks",
+      "Cloud-native and hybrid architectures",
     ],
+    note:
+      "",
   },
   {
-    title: "ITS Architecture & Advisory",
+    title: "ITS Architecture & Technical Advisory",
+    icon: Layers,
     description:
-      "Strategic software architecture and advisory services for modern ITS and smart city deployments.",
+      `Technical guidance for modern ITS and digital infrastructure
+      systems. We help clarify requirements, define integration strategies and
+      design interoperable system architectures.`,
     bullets: [
-      "C-ITS ecosystem planning",
-      "Tunnel & highway digitalization strategy",
-      "Open standards and interoperability frameworks",
-      "International deployment readiness",
+      "System architecture and integration design",
+      "C-ITS and V2X ecosystem planning",
+      "Road and street network digitalisation strategy",
+      "Open standards and interoperability strategy",
     ],
+    note:
+      "Advisory engagements may be delivered independently or in collaboration with selected partners.",
   },
 ];
 
@@ -86,17 +102,18 @@ export default function Services() {
       <section className="bg-gradient-to-b from-base-200 to-base-100">
         <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-base-300 bg-base-100 text-sm opacity-80">
-              Services • Intelligent Transport • Smart Infrastructure
-            </div>
+            <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
+              Services
+            </p>
 
             <h1 className="mt-6 text-4xl md:text-5xl font-bold leading-tight">
-              Software Solutions for Intelligent Transport & Smart Infrastructure
+              Software and Technical Services for Intelligent Transport Systems
             </h1>
 
             <p className="mt-5 text-lg md:text-xl opacity-80">
-              RoadMinded Systems delivers standards-based software platforms that enhance traffic
-              safety, operational efficiency and infrastructure sustainability.
+              We design and deliver standards-based software platforms and technical
+              guidance that integrate with existing ITS ecosystems and support safer,
+              more efficient and sustainable transport operations.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -122,16 +139,33 @@ export default function Services() {
           </div>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-            {SERVICES.map((s) => (
-              <div key={s.title} className="card bg-base-100 border border-base-300 shadow-sm">
+            {SERVICES.map(({ icon: Icon, title, description, bullets, note }) => (
+              <div key={title} className="card bg-base-100 border border-base-300 shadow-sm">
                 <div className="card-body">
-                  <h3 className="card-title text-xl">{s.title}</h3>
-                  <p className="opacity-80">{s.description}</p>
-                  <ul className="mt-3 list-disc pl-5 space-y-2 opacity-80 text-sm">
-                    {s.bullets.map((b) => (
+
+                  {Icon && (
+                    <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                      <Icon className="h-5 w-5" />
+                    </div>
+                  )}
+
+                  <h3 className="card-title text-xl">{title}</h3>
+                  <p className="opacity-80">{description}</p>
+
+                  <p className="mt-3 text-sm font-medium uppercase tracking-wide opacity-60">
+                    Capabilities
+                  </p>
+                  <ul className="mt-1 list-disc pl-5 space-y-2 opacity-80 text-sm">
+                    {bullets.map((b) => (
                       <li key={b}>{b}</li>
                     ))}
                   </ul>
+
+                  {note && note.length > 0 && (
+                    <p className="mt-3 text-xs opacity-60">
+                      {note}
+                    </p>
+                  )}
                 </div>
               </div>
             ))}

@@ -5,6 +5,7 @@
 - Tailwind CSS v4
 - DaisyUI
 - Netlify (static deploy)
+- lucide-react library for SVG icons
 
 ## Local Development
 ```

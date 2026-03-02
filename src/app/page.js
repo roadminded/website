@@ -1,34 +1,42 @@
 import Link from "next/link";
 import Image from "next/image";
+import { BarChart3, Server, Layers } from "lucide-react";
 
 const SERVICE_SUMMARY = [
   {
     title: "Transport & Tunnel Intelligence",
+    icon: BarChart3,
     description:
-      "Analytics and decision-support for tunnel operators, highways and traffic control centres.",
+      "Analytics and decision-support for tunnel and highways operators as well as traffic control centres.",
     bullets: [
+      "Real-time and historical Variable Message Sign (VMS) analytics",
       "Incident and post-incident analysis",
-      "Real-time and historical VMS analytics",
-      "Standards-based integrations (DATEX II, JSON, OpenLR)",
+      "Standards-based integrations (e.g. JSON, DATEX II, OpenLR)",
+      "Cloud-native and scalable architecture",
     ],
   },
   {
-    title: "Smart Infrastructure Data & AI",
+    title: "Transport Software Engineering",
+    icon: Server,
     description:
-      "Data platforms and AI models that enable smarter, greener infrastructure operations.",
+      "Design and development of interoperable, standards-based transport software components and applications.",
     bullets: [
-      "Infrastructure data pipelines and integration",
-      "Predictive maintenance insights",
-      "Asset condition modelling and dashboards",
+      "Backend platforms and API development",
+      "Open-data-driven applications",
+      "Integration with existing ITS ecosystems",
+      "Data modelling and quality frameworks",
+      "Cloud-native and hybrid deployments",
     ],
   },
   {
-    title: "ITS Architecture & Advisory",
+    title: "ITS Architecture & Technical Advisory",
+    icon: Layers,
     description:
-      "Independent guidance on modern ITS, C-ITS and smart city platforms.",
+      "Technical guidance for modern ITS and digital infrastructure systems, delivered independently or in collaboration with selected partners.",
     bullets: [
+      "System architecture and integration design",
       "C-ITS and V2X ecosystem planning",
-      "Tunnel & highway digitalisation roadmaps",
+      "Road and street network digitalisation strategy",
       "Open standards and interoperability frameworks",
     ],
   },
@@ -54,9 +62,9 @@ export default function Home() {
       <section className="bg-gradient-to-b from-base-200 to-base-100">
         <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-base-300 bg-base-100 text-xs md:text-sm opacity-80">
-              Intelligent Transport Systems • Smart Infrastructure • Europe • Asia-Pacific
-            </div>
+            <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
+              Standards-Based ITS Software • Europe & Asia-Pacific
+            </p>
 
             <h1 className="mt-6 text-4xl md:text-5xl font-bold leading-tight">
               Building Software for Intelligent Transport Systems
@@ -84,7 +92,7 @@ export default function Home() {
       <section className="py-10 md:py-12 border-b border-base-200 bg-base-100">
         <div className="max-w-6xl mx-auto px-6">
           <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
-            Technology partners represented in Asia‑Pacific
+            Technology partners represented in Asia-Pacific
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-10">
             {PARTNERS.map((p) => (
@@ -111,9 +119,9 @@ export default function Home() {
                 What we deliver
               </h2>
               <p className="mt-3 max-w-2xl opacity-80">
-                Modular software and advisory services that integrate with
-                existing ITS and infrastructure systems, built on open
-                standards and interoperable architectures.
+                Standards-based software and advisory services designed to
+                integrate with existing Intelligent Transport Systems and
+                infrastructure platforms.
               </p>
             </div>
             <Link
@@ -125,19 +133,29 @@ export default function Home() {
           </div>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
-            {SERVICE_SUMMARY.map((s) => (
+            {SERVICE_SUMMARY.map(({ icon: Icon, title, description, bullets }) => (
               <div
-                key={s.title}
+                key={title}
                 className="card bg-base-100 border border-base-300 shadow-sm"
               >
                 <div className="card-body">
-                  <h3 className="card-title text-xl">{s.title}</h3>
-                  <p className="opacity-80">{s.description}</p>
+
+                  {Icon && (
+                    <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                      <Icon className="h-5 w-5" />
+                    </div>
+                  )}
+
+                  <h3 className="card-title text-xl">{title}</h3>
+
+                  <p className="opacity-80">{description}</p>
+
                   <ul className="mt-3 list-disc pl-5 space-y-2 opacity-80 text-sm">
-                    {s.bullets.map((b) => (
+                    {bullets.map((b) => (
                       <li key={b}>{b}</li>
                     ))}
                   </ul>
+
                 </div>
               </div>
             ))}
@@ -158,37 +176,39 @@ export default function Home() {
             Why RoadMinded Systems
           </h2>
           <p className="mt-3 max-w-3xl opacity-80">
-            We combine deep domain experience in intelligent transport systems
-            with modern software engineering practices and open standards.
+            We combine deep Intelligent Transport Systems expertise with modern
+            software engineering and open, interoperable standards.
           </p>
 
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
               <h3 className="font-semibold">ITS domain expertise</h3>
               <p className="mt-2 opacity-80">
-                Experience across tunnels, highways, traffic management and
-                smart city platforms.
+                Practical experience across highways, tunnels, traffic management
+                centres and smart city ecosystems.
               </p>
             </div>
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
               <h3 className="font-semibold">Standards‑first</h3>
               <p className="mt-2 opacity-80">
-                DATEX II, OpenLR, ETSI, V2X and C‑ITS specifications at the
-                core of every solution.
+                International ITS standards — including DATEX II, OpenLR and
+                C-ITS specifications — form the foundation of our system design.
               </p>
             </div>
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
               <h3 className="font-semibold">Architecture & delivery</h3>
               <p className="mt-2 opacity-80">
-                From concept and architecture through to implementation support
-                and integration.
+                From concept and system architecture to implementation support
+                and integration within existing ITS environments.
               </p>
             </div>
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
               <h3 className="font-semibold">Asia‑Pacific focus</h3>
               <p className="mt-2 opacity-80">
-                Local presence and partnerships to support deployments across
-                Taiwan and the wider region.
+
+                European foundations with active engagement in Taiwan and the
+                wider Asia-Pacific region, supporting cross-border deployment
+                and collaboration.
               </p>
             </div>
           </div>

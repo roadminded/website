@@ -12,17 +12,18 @@ export default function About() {
                 <div className="max-w-6xl mx-auto px-6 py-20 md:py-24">
                     <div className="max-w-3xl">
                         <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
-                            About RoadMinded Systems
+                            About
                         </p>
                         <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
-                            Independent software and advisory for intelligent transport and
-                            smart infrastructure.
+                            Independent Software and Technical Advisory for
+                            Intelligent Transport Systems
                         </h1>
                         <p className="mt-5 text-lg md:text-xl opacity-80">
-                            RoadMinded Systems bridges the gap between transport domain
-                            expertise and modern software engineering. We help operators,
-                            authorities and technology providers design, build and operate
-                            systems that are safer, more efficient and more sustainable.
+                            RoadMinded Systems bridges transport domain expertise
+                            with modern software engineering and open standards.
+                            We support operators, authorities and technology providers
+                            in designing, building and operating systems that improve
+                            safety, efficiency and sustainability.
                         </p>
                     </div>
                 </div>
@@ -34,45 +35,41 @@ export default function About() {
                     <div>
                         <h2 className="text-2xl md:text-3xl font-semibold">Who we are</h2>
                         <p className="mt-4 opacity-80">
-                            We are a software-focused practice with deep roots in intelligent
-                            transport systems (ITS), tunnels, highways and smart
-                            infrastructure. Our work combines:
+                            RoadMinded Systems is a software-led company operating at the
+                            intersection of Intelligent Transport Systems (ITS) and modern
+                            digital infrastructure.
                         </p>
                         <ul className="mt-4 list-disc pl-5 space-y-2 opacity-80">
                             <li>
-                                Hands-on experience with control centres, tunnels and field
-                                equipment
+                                Experience within public authorities, highway operators and
+                                traffic management centres
                             </li>
                             <li>
-                                Modern data and software engineering practices in the cloud and
-                                on-premise
+                                Cloud-native software engineering for transport environments
                             </li>
                             <li>
-                                Strong emphasis on open standards, interoperability and long‑term
-                                maintainability
+                                Open standards and interoperability as core architectural principles
                             </li>
                         </ul>
                         <p className="mt-4 opacity-80">
-                            We work with public authorities, operators and technology
-                            providers to clarify requirements, design architectures and
-                            deliver software that integrates cleanly into existing ecosystems.
+                            We work with operators and technology providers to design resilient,
+                            standards-based systems that integrate seamlessly into existing
+                            transport ecosystems.
                         </p>
                     </div>
 
                     <div className="p-6 rounded-2xl border border-base-300 bg-base-100 shadow-sm text-sm">
                         <h3 className="text-lg font-semibold">
-                            Focused on Europe and Asia‑Pacific
+                            Focused on Europe and Asia-Pacific
                         </h3>
                         <p className="mt-3 opacity-80">
-                            RoadMinded Systems is based in Europe with a strong focus on
-                            projects and partnerships in Taiwan and the wider Asia‑Pacific
-                            region. We understand both European standards and local deployment
-                            realities.
+                            RoadMinded Systems is incorporated in Finland and operates actively
+                            in Taiwan and the wider Asia-Pacific region.
                         </p>
                         <p className="mt-3 opacity-80">
-                            This allows us to act as a bridge between innovative European
-                            technologies and ambitious infrastructure programmes in
-                            Asia‑Pacific.
+                            We combine European ITS standards and governance frameworks with
+                            practical insight into local deployment environments, enabling
+                            cross-border collaboration and resilient system design.
                         </p>
                     </div>
                 </div>
@@ -100,9 +97,9 @@ export default function About() {
                             </h3>
 
                             <p className="opacity-80">
-                                RoadMinded Systems is founded and led by Ilkka Kotilainen, a software
-                                engineer and transport systems specialist focused on Intelligent Transport
-                                Systems (ITS), data engineering and standards-based software design.
+                                Ilkka Kotilainen is a software engineer and transport systems
+                                specialist focused on Intelligent Transport Systems (ITS),
+                                transport data engineering and standards-based software design.
                             </p>
 
                             <p className="opacity-80">
@@ -113,8 +110,9 @@ export default function About() {
                             </p>
 
                             <p className="opacity-80">
-                                Ilkka's work emphasizes cloud-native architecture, open standards and
-                                long-term maintainability to ensure resilient and future-proof transport systems.
+                                His work emphasizes cloud-native architecture, open standards and
+                                long-term maintainability to support resilient and future-proof
+                                transport systems.
                             </p>
 
                             <div className="pt-1">
@@ -134,35 +132,38 @@ export default function About() {
             <section className="py-16 md:py-20 bg-base-200">
                 <div className="max-w-6xl mx-auto px-6">
                     <h2 className="text-2xl md:text-3xl font-semibold">
-                        How we work with our clients
+                        How we work
                     </h2>
                     <p className="mt-3 max-w-3xl opacity-80">
-                        Our engagements are designed to be practical and collaborative.
-                        We aim to reduce risk and uncertainty in complex transport and
-                        infrastructure projects.
+                        We take a practical, problem-solving approach to transport and
+                        infrastructure software challenges, focusing on clarity,
+                        technical soundness and maintainable solutions.
                     </p>
 
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                         <div className="p-5 rounded-xl bg-base-100 border border-base-300">
                             <h3 className="font-semibold">1. Understand & clarify</h3>
                             <p className="mt-2 opacity-80">
-                                We start by understanding your current systems, constraints and
-                                objectives—technical, operational and organisational.
+                                We analyse your existing systems, data and operational context
+                                to define clear technical objectives, constraints and
+                                integration requirements.
                             </p>
                         </div>
                         <div className="p-5 rounded-xl bg-base-100 border border-base-300">
                             <h3 className="font-semibold">2. Architect & design</h3>
                             <p className="mt-2 opacity-80">
-                                We define architectures, data flows and integration patterns
-                                that respect standards, security and long‑term maintainability.
+                                We design system architectures, data models and integration
+                                patterns aligned with open standards, interoperability and
+                                security principles.
                             </p>
                         </div>
                         <div className="p-5 rounded-xl bg-base-100 border border-base-300">
-                            <h3 className="font-semibold">3. Implement & iterate</h3>
+                            <h3 className="font-semibold">3. Develop & iterate</h3>
                             <p className="mt-2 opacity-80">
-                                We support implementation, testing and optimisation—whether
-                                through our own software components or by working with your
-                                teams and suppliers.
+                                We develop targeted software solutions or analytical tools
+                                to address identified needs, refining them through testing and
+                                feedback to ensure reliable integration within existing
+                                ITS environments.
                             </p>
                         </div>
                     </div>
@@ -173,40 +174,39 @@ export default function About() {
             <section className="py-16 md:py-20">
                 <div className="max-w-6xl mx-auto px-6">
                     <h2 className="text-2xl md:text-3xl font-semibold">
-                        Principles we work by
+                        Principles
                     </h2>
                     <p className="mt-3 max-w-3xl opacity-80">
-                        Our principles shape how we design systems and collaborate with
-                        partners.
+                        These principles guide how we design, develop and integrate transport systems.
                     </p>
 
                     <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
                         <div className="p-5 rounded-xl bg-base-200 border border-base-300">
-                            <h3 className="font-semibold">Standards‑driven</h3>
+                            <h3 className="font-semibold">Standards-driven</h3>
                             <p className="mt-2 opacity-80">
-                                We favour open, well‑defined standards to reduce lock‑in and
-                                improve interoperability between systems and vendors.
+                                We prioritise open, well-defined standards to reduce vendor
+                                lock-in and ensure interoperability across systems and stakeholders.
                             </p>
                         </div>
                         <div className="p-5 rounded-xl bg-base-200 border border-base-300">
                             <h3 className="font-semibold">Pragmatic</h3>
                             <p className="mt-2 opacity-80">
-                                We look for solutions that can be implemented and operated
-                                reliably within your current context—not just on paper.
+                                We focus on solutions that can be realistically implemented
+                                and operated within your technical and organisational context.
                             </p>
                         </div>
                         <div className="p-5 rounded-xl bg-base-200 border border-base-300">
                             <h3 className="font-semibold">Transparent</h3>
                             <p className="mt-2 opacity-80">
-                                We communicate clearly about assumptions, trade‑offs and risks
-                                so you can make informed decisions.
+                                We communicate assumptions, trade-offs and risks clearly,
+                                enabling informed technical and strategic decisions.
                             </p>
                         </div>
                         <div className="p-5 rounded-xl bg-base-200 border border-base-300">
-                            <h3 className="font-semibold">Long‑term</h3>
+                            <h3 className="font-semibold">Long-term</h3>
                             <p className="mt-2 opacity-80">
-                                We design with lifecycle, maintainability and future extensions
-                                in mind, not just initial delivery.
+                                We design for lifecycle sustainability, maintainability and
+                                future evolution — not only initial deployment.
                             </p>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ export default function About() {
                         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                             <div>
                                 <h2 className="text-2xl md:text-3xl font-semibold">
-                                    Let’s discuss your next project.
+                                    Let's discuss your next project.
                                 </h2>
                                 <p className="mt-2 opacity-80">
                                     Whether you are analysing data, planning system improvements or
