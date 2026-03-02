@@ -98,8 +98,27 @@ const PARTNERS = [
 export default function Services() {
   return (
     <div className="bg-base-100">
+
       {/* Hero */}
       <section className="bg-gradient-to-b from-base-200 to-base-100">
+
+        {/* Background network SVG */}
+        <div className="absolute inset-0 opacity-[0.08] pointer-events-none">
+          <svg className="w-full h-full">
+            <defs>
+              <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path
+                  d="M 40 0 L 0 0 0 40"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="0.4"
+                />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#grid)" />
+          </svg>
+        </div>
+
         <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
           <div className="max-w-3xl">
             <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
@@ -140,7 +159,10 @@ export default function Services() {
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
             {SERVICES.map(({ icon: Icon, title, description, bullets, note }) => (
-              <div key={title} className="card bg-base-100 border border-base-300 shadow-sm">
+              <div
+                key={title}
+                className="card bg-base-100 border border-base-300 shadow-sm"
+              >
                 <div className="card-body">
 
                   {Icon && (

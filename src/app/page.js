@@ -58,9 +58,35 @@ const PARTNERS = [
 export default function Home() {
   return (
     <div className="bg-base-100">
+
       {/* Hero */}
-      <section className="bg-gradient-to-b from-base-200 to-base-100">
-        <div className="max-w-6xl mx-auto px-6 py-20 md:py-28">
+      <section className="relative bg-gradient-to-b from-base-200 to-base-100">
+
+        {/*Static SVG Background inside Hero Section */}
+        <div className="pointer-events-none absolute inset-0 opacity-[0.07]">
+          <svg
+            className="w-full h-full"
+            viewBox="0 0 800 600"
+            preserveAspectRatio="xMidYMid slice"
+          >
+            <g stroke="currentColor" strokeWidth="1" fill="none">
+              <line x1="100" y1="100" x2="300" y2="200" />
+              <line x1="300" y1="200" x2="500" y2="120" />
+              <line x1="500" y1="120" x2="650" y2="300" />
+              <line x1="300" y1="200" x2="200" y2="350" />
+              <line x1="200" y1="350" x2="450" y2="450" />
+              <circle cx="100" cy="100" r="4" fill="currentColor" />
+              <circle cx="300" cy="200" r="4" fill="currentColor" />
+              <circle cx="500" cy="120" r="4" fill="currentColor" />
+              <circle cx="650" cy="300" r="4" fill="currentColor" />
+              <circle cx="200" cy="350" r="4" fill="currentColor" />
+              <circle cx="450" cy="450" r="4" fill="currentColor" />
+            </g>
+          </svg>
+        </div>
+
+        <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-28">
+
           <div className="max-w-3xl">
             <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
               Standards-Based ITS Software • Europe & Asia-Pacific
