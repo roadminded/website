@@ -215,7 +215,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
-              <h3 className="font-semibold">Standards‑first</h3>
+              <h3 className="font-semibold">Standards-first</h3>
               <p className="mt-2 opacity-80">
                 International ITS standards — including DATEX II, OpenLR and
                 C-ITS specifications — form the foundation of our system design.
@@ -229,7 +229,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-5 rounded-xl bg-base-100 border border-base-300">
-              <h3 className="font-semibold">Asia‑Pacific focus</h3>
+              <h3 className="font-semibold">Asia-Pacific focus</h3>
               <p className="mt-2 opacity-80">
 
                 European foundations with active engagement in Taiwan and the

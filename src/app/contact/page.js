@@ -5,11 +5,12 @@ export const metadata = {
 };
 
 export default function Contact() {
-    // TODO: change this to your real contact email
+
     const contactEmail = "info@roadminded.com";
 
     return (
         <div className="bg-base-100">
+            
             {/* Hero / Intro */}
             <section className="bg-gradient-to-b from-base-200 to-base-100">
                 <div className="max-w-6xl mx-auto px-6 py-20 md:py-24">

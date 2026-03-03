@@ -256,7 +256,7 @@ export default function Services() {
                   Looking to modernize your transport infrastructure?
                 </h3>
                 <p className="mt-2 opacity-80">
-                  Tell us about your environment, standards, and data sources—we’ll propose a path.
+                  Tell us about your environment, standards, and data sources—we'll propose a path.
                 </p>
               </div>
               <Link href="/contact" className="btn btn-primary">
