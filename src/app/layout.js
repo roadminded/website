@@ -19,7 +19,9 @@ export const metadata = {
     default: "RoadMinded Systems",
     template: "%s | RoadMinded Systems",
   },
-  description: "Short description of what your company does.",
+  description:
+   "RoadMinded Systems develops intelligent transport software and " +
+   "provides ITS expertise for road, tunnel and connected mobility applications.",
 };
 
 export default function RootLayout({ children }) {
@@ -61,6 +63,11 @@ export default function RootLayout({ children }) {
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
+                  <li>
+                    <a href="https://tunnelimestari.roadminded.com">
+                      Login
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -73,9 +80,15 @@ export default function RootLayout({ children }) {
               <Link href="/about" className="btn btn-ghost btn-sm text-base">
                 About
               </Link>
-              <Link href="/contact" className="btn btn-primary btn-sm text-base">
+              <Link href="/contact" className="btn btn-ghost btn-sm text-base">
                 Contact
               </Link>
+              <a
+                href="https://tunnelimestari.roadminded.com"
+                className="btn btn-primary btn-sm text-base"
+              >
+                Login
+              </a>
             </div>
           </div>
         </nav>
