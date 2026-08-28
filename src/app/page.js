@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         { /* Hero content */}
-        <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-28">
+        <div className="relative max-w-6xl mx-auto px-6 pt-20 pb-12 md:pt-28 md:pb-16">
 
           <div className="max-w-3xl">
             <p className="text-xs md:text-sm uppercase tracking-[0.25em] opacity-60">
@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       {/* Featured product: Tunnelimestari */}
-      <section className="py-16 md:py-20 bg-base-100 border-b border-base-200">
+      <section className="pt-10 pb-16 md:pt-12 md:pb-20 bg-base-100 border-b border-base-200">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
 
@@ -127,15 +127,15 @@ export default function Home() {
               </p>
 
               <h2 className="mt-4 text-3xl md:text-4xl font-semibold">
-                Tunnelimestari
+                TunnelMaster
               </h2>
 
               <p className="mt-2 text-lg font-medium opacity-80">
-                Traffic and tunnel operations intelligence
+                Tunnel Operations Intelligence
               </p>
 
               <p className="mt-5 max-w-xl opacity-80 leading-relaxed">
-                Tunnelimestari brings real-time and historical traffic management
+                TunnelMaster brings real-time and historical traffic management
                 data into one analytical view, helping operators understand traffic
                 control actions, incidents and changing conditions across road and
                 tunnel environments.
@@ -149,8 +149,8 @@ export default function Home() {
               </ul>
 
               <div className="mt-7 flex flex-col sm:flex-row gap-3">
-                <Link href="/tunnelimestari" className="btn btn-primary">
-                  Explore Tunnelimestari
+                <Link href="/tunnelmaster" className="btn btn-primary">
+                  Explore TunnelMaster
                 </Link>
 
                 <a
@@ -165,8 +165,8 @@ export default function Home() {
             {/* Tunnel Master (tunnelimestari) image */}
             <div className="rounded-2xl border border-base-300 bg-base-100 p-2 shadow-sm overflow-hidden">
               <Image
-                src="/images/tunnelimestari-dashboard.png"
-                alt="Tunnelimestari traffic and tunnel operations dashboard"
+                src="/images/tunnelmaster-dashboard.png"
+                alt="TunnelMaster traffic and tunnel operations dashboard"
                 width={1200}
                 height={750}
                 className="w-full h-auto rounded-xl"
