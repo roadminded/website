@@ -5,9 +5,9 @@
         },
         "hero": {
             "eyebrow": "以標準為基礎的 ITS 軟體 • 歐洲與亞太地區",
-            "title": "為智慧運輸系統打造軟體",
+            "title": "為智慧型運輸系統打造軟體",
             "description": "RoadMinded Systems 協助營運單位、主管機關與技術供應商，將交通與基礎設施資料轉化為更安全、更有效率且更永續的營運能力。",
-            "primaryButton": "與我們聯絡",
+            "primaryButton": "聯絡我們",
             "secondaryButton": "了解服務"
         },
         "product": {
@@ -26,14 +26,14 @@
         },
         "services": {
             "title": "我們提供的服務",
-            "description": "以標準為基礎的軟體與技術顧問服務，可整合既有智慧運輸系統與基礎設施平台。",
+            "description": "以標準為基礎的軟體與技術顧問服務，可整合既有智慧型運輸系統與基礎設施平台。",
             "viewAll": "查看所有服務",
             "items": [
                 {
                     "title": "交通與隧道營運分析",
                     "description": "為隧道與公路營運單位及交通管理中心提供分析與決策支援。",
                     "bullets": [
-                        "即時與歷史可變資訊標誌（VMS）分析",
+                        "即時與歷史資訊可變標誌（CMS/VMS）分析",
                         "事件與事件後分析",
                         "標準化系統整合，例如 JSON、DATEX II、OpenLR",
                         "雲端原生且具擴充性的系統架構"
@@ -67,7 +67,7 @@
         },
         "why": {
             "title": "為什麼選擇 RoadMinded Systems",
-            "description": "我們結合智慧運輸系統的實務經驗、現代軟體工程，以及開放且具互通性的標準。",
+            "description": "我們結合智慧型運輸系統的實務經驗、現代軟體工程，以及開放且具互通性的標準。",
             "items": [
                 {
                     "title": "ITS 專業經驗",
@@ -120,8 +120,8 @@
             "title": "從交通管理資料取得營運洞察",
             "items": [
                 {
-                    "title": "即時與歷史 VMS 監控",
-                    "description": "查看指定道路或隧道環境中目前及歷史的可變資訊標誌（VMS）狀態。"
+                    "title": "即時與歷史 CMS/VMS 監控",
+                    "description": "查看指定道路或隧道環境中目前及歷史的資訊可變標誌（CMS/VMS）狀態。"
                 },
                 {
                     "title": "以事件為核心的營運分析",
@@ -172,9 +172,9 @@
         },
         "hero": {
             "eyebrow": "服務",
-            "title": "智慧運輸系統的軟體產品與技術服務",
+            "title": "智慧型運輸系統的軟體產品與技術服務",
             "description": "我們開發以標準為基礎的交通軟體，並提供可整合既有 ITS 生態系統的技術服務，支援更安全、更有效率且更永續的交通營運。",
-            "primaryButton": "與我們聯絡",
+            "primaryButton": "聯絡我們",
             "secondaryButton": "了解我們的服務"
         },
         "product": {
@@ -272,12 +272,12 @@
         },
         "hero": {
             "eyebrow": "關於我們",
-            "title": "智慧運輸系統的獨立軟體開發與技術顧問",
+            "title": "智慧型運輸系統的獨立軟體開發與技術顧問",
             "description": "RoadMinded Systems 結合交通領域專業、現代軟體工程與開放標準。我們協助營運單位、主管機關與技術供應商設計、開發及改善系統，以支援更安全、更有效率且更永續的交通營運。"
         },
         "who": {
             "title": "我們是誰",
-            "description": "RoadMinded Systems 是一家以軟體為核心的公司，專注於智慧運輸系統（ITS）與現代數位基礎設施的交會領域。",
+            "description": "RoadMinded Systems 是一家以軟體為核心的公司，專注於智慧型運輸系統（ITS）與現代數位基礎設施的交會領域。",
             "bullets": [
                 "具備公部門、道路營運單位與交通管理中心相關經驗",
                 "為交通環境提供雲端原生軟體工程",
@@ -294,7 +294,7 @@
             "title": "管理團隊",
             "name": "Ilkka Kotilainen（家安迪）— Founder & CEO",
             "paragraphs": [
-                "Ilkka Kotilainen 是軟體工程與交通系統專家，專注於智慧運輸系統（ITS）、交通資料工程及以標準為基礎的軟體設計。",
+                "Ilkka Kotilainen 是軟體開發與交通系統專家，專注於智慧型運輸系統（ITS）、交通資料工程及以標準為基礎的軟體設計。",
                 "他的經驗涵蓋公部門、道路營運單位與產業界，並直接參與交通管理中心與隧道營運相關工作，包括系統開發、試點計畫、研究分析，以及具互通性的交通軟體解決方案導入。",
                 "他的工作重點包括實務導向的 ITS 軟體、雲端原生架構、開放標準與長期可維護性，目前業務涵蓋歐洲、台灣及更廣泛的亞太地區。"
             ],
@@ -348,7 +348,7 @@
     },
     "contactPage": {
         "metadata": {
-            "description": "聯絡 RoadMinded Systems，討論智慧運輸系統、交通軟體、TunnelMaster 或技術合作。"
+            "description": "聯絡 RoadMinded Systems，討論智慧型運輸系統、交通軟體、TunnelMaster 或技術合作。"
         },
         "hero": {
             "eyebrow": "聯絡我們",
@@ -360,7 +360,7 @@
             "description": "請簡要說明您的組織、專案背景與目標。",
             "addressLabel": "電子郵件地址",
             "subjectLabel": "建議主旨",
-            "subject": "合作洽詢 – 智慧運輸系統",
+            "subject": "合作洽詢 – 智慧型運輸系統",
             "button": "寄送電子郵件"
         },
         "include": {
@@ -388,7 +388,7 @@
             "description": "本聲明說明 RoadMinded Systems 如何處理與本網站及一般商務洽詢相關的個人資料。"
         },
         "controller": {
-            "title": "1. 個人資料控管者",
+            "title": "1. 資料控制者",
             "emailLabel": "電子郵件"
         },
         "data": {
