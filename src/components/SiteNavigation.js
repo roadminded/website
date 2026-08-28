@@ -32,6 +32,10 @@ export default function SiteNavigation() {
                 : pathname;
 
     const languagePath = (targetLocale) => {
+        if (pathname.startsWith("/resources/")) { // Don't change locale for resources pages
+            return pathname;
+        }
+
         if (targetLocale === "en") {
             return pathWithoutLocale;
         }

@@ -30,6 +30,7 @@ export default function SiteFooter() {
             about: "About",
             contact: "Contact",
             privacy: "Privacy",
+            resources: "Resources",
             businessId: "Business ID",
         },
         fi: {
@@ -38,6 +39,7 @@ export default function SiteFooter() {
             about: "Meistä",
             contact: "Yhteystiedot",
             privacy: "Tietosuoja",
+            resources: "Resources",
             businessId: "Y-tunnus",
         },
         "zh-tw": {
@@ -46,6 +48,7 @@ export default function SiteFooter() {
             about: "關於我們",
             contact: "聯絡我們",
             privacy: "隱私權",
+            resources: "Resources",
             businessId: "Business ID",
         },
     }[locale];
@@ -110,6 +113,13 @@ export default function SiteFooter() {
                             className="link link-hover"
                         >
                             {labels.contact}
+                        </Link>
+
+                        <Link
+                            href="/resources/its-terminology"
+                            className="link link-hover"
+                        >
+                            {labels.resources}
                         </Link>
 
                         <Link

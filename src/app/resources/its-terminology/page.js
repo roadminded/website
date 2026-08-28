@@ -107,9 +107,20 @@ const TERMS = [
 ];
 
 export const metadata = {
-    title: "ITS Terminology",
+    title: "ITS Terminology: English, Traditional Chinese & Pinyin",
     description:
-        "A practical English–Traditional Chinese terminology reference for Intelligent Transport Systems in Taiwan, including Hanyu Pinyin and usage notes.",
+        "A practical English–Traditional Chinese ITS terminology reference for Taiwan, including Hanyu Pinyin, Taiwan-specific usage notes and transport-sector terminology.",
+    alternates: {
+        canonical: "https://roadminded.com/resources/its-terminology",
+    },
+    openGraph: {
+        title: "ITS Terminology: English, Traditional Chinese & Pinyin",
+        description:
+            "A practical ITS terminology reference for Taiwan with English, Traditional Chinese, Hanyu Pinyin and usage notes.",
+        url: "https://roadminded.com/resources/its-terminology",
+        siteName: "RoadMinded Systems",
+        type: "article",
+    },
 };
 
 export default function ItsTerminologyPage() {
@@ -129,11 +140,14 @@ export default function ItsTerminologyPage() {
                         English · Traditional Chinese · Pinyin
                     </p>
 
-                    <p className="mt-5 text-lg opacity-80 max-w-3xl">
-                        A practical terminology reference for Intelligent Transport
-                        Systems and transport infrastructure cooperation in Taiwan.
-                        The glossary includes Traditional Chinese, Hanyu Pinyin and
-                        notes on Taiwan-specific terminology where useful.
+                    <p className="mt-5 text-lg font-medium max-w-3xl">
+                        A practical English–Traditional Chinese ITS glossary for Taiwan,
+                        with Hanyu Pinyin and terminology notes.
+                    </p>
+
+                    <p className="mt-3 text-base md:text-lg opacity-70 max-w-3xl">
+                        Designed as a practical reference for Intelligent Transport Systems
+                        and transport infrastructure cooperation in Taiwan.
                     </p>
                 </div>
             </section>
