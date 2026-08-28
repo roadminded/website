@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import { headers } from "next/headers";
 import "./globals.css";
 import SiteNavigation from "@/components/SiteNavigation";
 import SiteFooter from "@/components/SiteFooter";
@@ -25,20 +24,22 @@ export const metadata = {
     "provides ITS expertise for road, tunnel and connected mobility applications.",
 };
 
-export default async function RootLayout({ children }) {
-  const requestHeaders = await headers();
-  const language = requestHeaders.get("x-site-language") || "en";
-
+export default function RootLayout({ children }) {
   return (
-    <html lang={language}>
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        {/* Navbar */}
         <SiteNavigation />
 
+
+        {/* Main content */}
         <main className="flex-grow">{children}</main>
 
+        {/* Footer */}
         <SiteFooter />
+
       </body>
     </html>
   );
