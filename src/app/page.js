@@ -2,6 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { BarChart3, Server, Layers } from "lucide-react";
 
+
+export const metadata = {
+  description:
+    "RoadMinded Systems develops standards-based ITS software, TunnelMaster traffic operations intelligence and technical solutions for Europe and Asia-Pacific.",
+};
+
+
 const SERVICE_SUMMARY = [
   {
     title: "Transport & Tunnel Intelligence",
