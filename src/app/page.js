@@ -7,7 +7,7 @@ const SERVICE_SUMMARY = [
     title: "Transport & Tunnel Intelligence",
     icon: BarChart3,
     description:
-      "Analytics and decision-support for tunnel and highways operators as well as traffic control centres.",
+      "Analytics and decision-support for tunnel and highway operators as well as traffic management centres.",
     bullets: [
       "Real-time and historical Variable Message Sign (VMS) analytics",
       "Incident and post-incident analysis",
@@ -85,6 +85,7 @@ export default function Home() {
           </svg>
         </div>
 
+        { /* Hero content */}
         <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-28">
 
           <div className="max-w-3xl">
@@ -114,24 +115,64 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Partners / logos */}
-      <section className="py-10 md:py-12 border-b border-base-200 bg-base-100">
+      {/* Featured product: Tunnelimestari */}
+      <section className="py-16 md:py-20 bg-base-100 border-b border-base-200">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
-            Technology partners represented in Asia-Pacific
-          </p>
-          <div className="mt-4 flex flex-wrap items-center gap-10">
-            {PARTNERS.map((p) => (
-              <div key={p.name} className="flex items-center gap-3 opacity-80">
-                <Image
-                  src={p.logoSrc}
-                  alt={p.logoAlt}
-                  width={140}
-                  height={40}
-                  className="h-8 md:h-10 w-auto object-contain"
-                />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+
+            {/* Text */}
+            <div>
+              <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
+                Featured product
+              </p>
+
+              <h2 className="mt-4 text-3xl md:text-4xl font-semibold">
+                Tunnelimestari
+              </h2>
+
+              <p className="mt-2 text-lg font-medium opacity-80">
+                Traffic and tunnel operations intelligence
+              </p>
+
+              <p className="mt-5 max-w-xl opacity-80 leading-relaxed">
+                Tunnelimestari brings real-time and historical traffic management
+                data into one analytical view, helping operators understand traffic
+                control actions, incidents and changing conditions across road and
+                tunnel environments.
+              </p>
+
+              <ul className="mt-6 space-y-2 text-sm md:text-base opacity-80">
+                <li>• Real-time and historical VMS monitoring</li>
+                <li>• Incident and post-incident analysis</li>
+                <li>• Operational timelines and historical review</li>
+                <li>• Traffic management reporting and statistics</li>
+              </ul>
+
+              <div className="mt-7 flex flex-col sm:flex-row gap-3">
+                <Link href="/tunnelimestari" className="btn btn-primary">
+                  Explore Tunnelimestari
+                </Link>
+
+                <a
+                  href="https://tunnelimestari.roadminded.com"
+                  className="btn btn-ghost"
+                >
+                  Login
+                </a>
               </div>
-            ))}
+            </div>
+
+            {/* Tunnel Master (tunnelimestari) image */}
+            <div className="rounded-2xl border border-base-300 bg-base-100 p-2 shadow-sm overflow-hidden">
+              <Image
+                src="/images/tunnelimestari-dashboard.png"
+                alt="Tunnelimestari traffic and tunnel operations dashboard"
+                width={1200}
+                height={750}
+                className="w-full h-auto rounded-xl"
+              />
+            </div>
+
           </div>
         </div>
       </section>
@@ -157,6 +198,28 @@ export default function Home() {
               View all services
             </Link>
           </div>
+
+          {/* Partners / logos */}
+          <section className="py-10 md:py-12 border-b border-base-200 bg-base-100">
+            <div className="max-w-6xl mx-auto px-6">
+              <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
+                Technology partners represented in Asia-Pacific
+              </p>
+              <div className="mt-4 flex flex-wrap items-center gap-10">
+                {PARTNERS.map((p) => (
+                  <div key={p.name} className="flex items-center gap-3 opacity-80">
+                    <Image
+                      src={p.logoSrc}
+                      alt={p.logoAlt}
+                      width={140}
+                      height={40}
+                      className="h-8 md:h-10 w-auto object-contain"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
             {SERVICE_SUMMARY.map(({ icon: Icon, title, description, bullets }) => (
@@ -202,7 +265,7 @@ export default function Home() {
             Why RoadMinded Systems
           </h2>
           <p className="mt-3 max-w-3xl opacity-80">
-            We combine deep Intelligent Transport Systems expertise with modern
+            We combine practical Intelligent Transport Systems expertise with modern
             software engineering and open, interoperable standards.
           </p>
 
