@@ -4,43 +4,72 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
+
 export default function SiteNavigation() {
     const pathname = usePathname();
 
-    const isFinnish =
-        pathname === "/fi" || pathname.startsWith("/fi/");
+    const locale =
+        pathname === "/fi" || pathname.startsWith("/fi/")
+            ? "fi"
+            : pathname === "/zh-tw" || pathname.startsWith("/zh-tw/")
+                ? "zh-tw"
+                : "en";
 
-    const prefix = isFinnish ? "/fi" : "";
+    const prefix =
+        locale === "fi"
+            ? "/fi"
+            : locale === "zh-tw"
+                ? "/zh-tw"
+                : "";
 
     const localPath = (path) => `${prefix}${path}`;
 
-    const englishPath = isFinnish
-        ? pathname.replace(/^\/fi/, "") || "/"
-        : pathname;
+    const pathWithoutLocale =
+        locale === "fi"
+            ? pathname.replace(/^\/fi/, "") || "/"
+            : locale === "zh-tw"
+                ? pathname.replace(/^\/zh-tw/, "") || "/"
+                : pathname;
 
-    const finnishPath = isFinnish
-        ? pathname
-        : pathname === "/"
-            ? "/fi"
-            : `/fi${pathname}`;
-
-    const labels = isFinnish
-        ? {
-            product: "Tunnelimestari",
-            services: "Palvelut",
-            about: "Meistä",
-            contact: "Yhteystiedot",
-            login: "Kirjaudu",
-            menu: "Avaa valikko",
+    const languagePath = (targetLocale) => {
+        if (targetLocale === "en") {
+            return pathWithoutLocale;
         }
-        : {
+
+        if (pathWithoutLocale === "/") {
+            return `/${targetLocale}`;
+        }
+
+        return `/${targetLocale}${pathWithoutLocale}`;
+    };
+
+    const labels = {
+        en: {
             product: "TunnelMaster",
             services: "Services",
             about: "About",
             contact: "Contact",
             login: "Login",
             menu: "Open menu",
-        };
+        },
+        fi: {
+            product: "Tunnelimestari",
+            services: "Palvelut",
+            about: "Meistä",
+            contact: "Yhteystiedot",
+            login: "Kirjaudu",
+            menu: "Avaa valikko",
+        },
+        "zh-tw": {
+            product: "TunnelMaster",
+            services: "服務",
+            about: "關於我們",
+            contact: "聯絡我們",
+            login: "登入",
+            menu: "開啟選單",
+        },
+    }[locale];
+
 
     return (
         <nav className="navbar bg-base-100/90 backdrop-blur border-b border-base-200 px-6 sticky top-0 z-50">
@@ -49,7 +78,7 @@ export default function SiteNavigation() {
                 {/* Brand */}
                 <div className="flex-1">
                     <Link
-                        href={isFinnish ? "/fi" : "/"}
+                        href={prefix || "/"}
                         className="inline-flex items-center gap-3"
                     >
                         <Image
@@ -106,8 +135,8 @@ export default function SiteNavigation() {
                             <li className="mt-2 border-t border-base-200 pt-2">
                                 <div className="flex items-center gap-2">
                                     <Link
-                                        href={englishPath}
-                                        className={!isFinnish ? "font-semibold" : "opacity-60"}
+                                        href={languagePath("en")}
+                                        className={locale === "en" ? "font-semibold" : "opacity-60"}
                                     >
                                         EN
                                     </Link>
@@ -115,10 +144,19 @@ export default function SiteNavigation() {
                                     <span className="opacity-30">|</span>
 
                                     <Link
-                                        href={finnishPath}
-                                        className={isFinnish ? "font-semibold" : "opacity-60"}
+                                        href={languagePath("fi")}
+                                        className={locale === "fi" ? "font-semibold" : "opacity-60"}
                                     >
                                         FI
+                                    </Link>
+
+                                    <span className="opacity-30">|</span>
+
+                                    <Link
+                                        href={languagePath("zh-tw")}
+                                        className={locale === "zh-tw" ? "font-semibold" : "opacity-60"}
+                                    >
+                                        繁中
                                     </Link>
                                 </div>
                             </li>
@@ -158,8 +196,8 @@ export default function SiteNavigation() {
 
                     <div className="flex items-center gap-1 mx-1 text-sm">
                         <Link
-                            href={englishPath}
-                            className={`btn btn-ghost btn-xs ${!isFinnish ? "font-semibold" : "opacity-60"
+                            href={languagePath("en")}
+                            className={`btn btn-ghost btn-xs ${locale === "en" ? "font-semibold" : "opacity-60"
                                 }`}
                         >
                             EN
@@ -168,11 +206,21 @@ export default function SiteNavigation() {
                         <span className="opacity-30">|</span>
 
                         <Link
-                            href={finnishPath}
-                            className={`btn btn-ghost btn-xs ${isFinnish ? "font-semibold" : "opacity-60"
+                            href={languagePath("fi")}
+                            className={`btn btn-ghost btn-xs ${locale === "fi" ? "font-semibold" : "opacity-60"
                                 }`}
                         >
                             FI
+                        </Link>
+
+                        <span className="opacity-30">|</span>
+
+                        <Link
+                            href={languagePath("zh-tw")}
+                            className={`btn btn-ghost btn-xs ${locale === "zh-tw" ? "font-semibold" : "opacity-60"
+                                }`}
+                        >
+                            繁中
                         </Link>
                     </div>
 

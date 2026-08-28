@@ -3,33 +3,53 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+
 export default function SiteFooter() {
     const pathname = usePathname();
 
-    const isFinnish =
-        pathname === "/fi" || pathname.startsWith("/fi/");
+    const locale =
+        pathname === "/fi" || pathname.startsWith("/fi/")
+            ? "fi"
+            : pathname === "/zh-tw" || pathname.startsWith("/zh-tw/")
+                ? "zh-tw"
+                : "en";
 
-    const prefix = isFinnish ? "/fi" : "";
+    const prefix =
+        locale === "fi"
+            ? "/fi"
+            : locale === "zh-tw"
+                ? "/zh-tw"
+                : "";
 
     const localPath = (path) => `${prefix}${path}`;
 
-    const labels = isFinnish
-        ? {
-            product: "Tunnelimestari",
-            services: "Palvelut",
-            about: "Meistä",
-            contact: "Yhteystiedot",
-            privacy: "Tietosuoja",
-            businessId: "Y-tunnus",
-        }
-        : {
+    const labels = {
+        en: {
             product: "TunnelMaster",
             services: "Services",
             about: "About",
             contact: "Contact",
             privacy: "Privacy",
             businessId: "Business ID",
-        };
+        },
+        fi: {
+            product: "Tunnelimestari",
+            services: "Palvelut",
+            about: "Meistä",
+            contact: "Yhteystiedot",
+            privacy: "Tietosuoja",
+            businessId: "Y-tunnus",
+        },
+        "zh-tw": {
+            product: "TunnelMaster",
+            services: "服務",
+            about: "關於我們",
+            contact: "聯絡我們",
+            privacy: "隱私權",
+            businessId: "Business ID",
+        },
+    }[locale];
+
 
     return (
         <footer className="bg-base-200 border-t border-base-300">
