@@ -110,11 +110,11 @@ export default function RootLayout({ children }) {
 
               <div className="text-sm">
                 <div className="font-semibold">
-                  RoadMinded Systems Oy / Ltd
+                  RoadMinded Systems Oy
                 </div>
 
                 <div className="mt-2 opacity-70 space-y-1">
-                  <div>Finland</div>
+                  <div>Helsinki, Finland</div>
                   <div>Business ID: 3608959-6</div>
                   <div>
                     <a
