@@ -1,7 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 export const metadata = {
     title: "About",
+    description:
+        "Learn about RoadMinded Systems, a Finnish ITS software company combining transport expertise, modern software engineering and open standards across Europe and Asia-Pacific.",
 };
 
 export default function About() {
@@ -22,8 +26,8 @@ export default function About() {
                             RoadMinded Systems bridges transport domain expertise
                             with modern software engineering and open standards.
                             We support operators, authorities and technology providers
-                            in designing, building and operating systems that improve
-                            safety, efficiency and sustainability.
+                            in designing, building and improving systems that support
+                            safer, more efficient and sustainable transport operations.
                         </p>
                     </div>
                 </div>
@@ -83,9 +87,11 @@ export default function About() {
                     <div className="mt-6 flex flex-col md:flex-row items-start gap-8">
                         {/* Image, fixed width so text lines up nicely */}
                         <div className="shrink-0">
-                            <img
+                            <Image
                                 src="/images/ilkka-picture.jpg"
                                 alt="Ilkka Kotilainen"
+                                width={144}
+                                height={144}
                                 className="h-32 w-32 md:h-36 md:w-36 rounded-full object-cover border border-base-300 shadow-sm"
                             />
                         </div>
