@@ -2,7 +2,7 @@ import TunnelMasterPage from "@/components/pages/TunnelMasterPage";
 import fi from "@/locales/fi.json";
 
 export const metadata = {
-    title: "TunnelMaster",
+    title: "Tunnelimestari",
     description: fi.tunnelmaster.metadata.description,
 };
 

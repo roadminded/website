@@ -1,7 +1,7 @@
 {
     "home": {
         "metadata": {
-            "description": "RoadMinded Systems kehittää standardipohjaisia älyliikenteen ohjelmistoja, TunnelMaster-liikenteenhallinnan analytiikkapalvelua sekä teknisiä ratkaisuja Euroopan ja Aasian-Tyynenmeren markkinoille."
+            "description": "RoadMinded Systems kehittää standardipohjaisia älyliikenteen ohjelmistoja, Tunnelimestari-liikenteenhallinnan analytiikkapalvelua sekä teknisiä ratkaisuja Euroopan ja Aasian-Tyynenmeren markkinoille."
         },
         "hero": {
             "eyebrow": "Standardipohjaiset ITS-ohjelmistot • Eurooppa & Aasia-Tyynimeri",
@@ -12,16 +12,16 @@
         },
         "product": {
             "eyebrow": "Esittelyssä",
-            "title": "TunnelMaster",
-            "subtitle": "Tunnel Operations Intelligence",
-            "description": "TunnelMaster kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa ymmärtämään liikenteen ohjaustoimenpiteitä, tapahtumia ja muuttuvia olosuhteita tie- ja tunneliympäristöissä.",
+            "title": "Tunnelimestari",
+            "subtitle": "Tunnelien operoinnin tilannekuva ja analytiikka",
+            "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa ymmärtämään liikenteen ohjaustoimenpiteitä, tapahtumia ja muuttuvia olosuhteita tie- ja tunneliympäristöissä.",
             "bullets": [
                 "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
                 "Tapahtumiin keskittyvä operatiivinen analyysi",
                 "Operatiiviset aikajanat ja historiatarkastelu",
                 "Liikenteenhallinnan raportointi ja tilastot"
             ],
-            "primaryButton": "Tutustu TunnelMasteriin",
+            "primaryButton": "Tutustu Tunnelimestariin",
             "loginButton": "Kirjaudu"
         },
         "services": {
@@ -96,24 +96,24 @@
     },
     "tunnelmaster": {
         "metadata": {
-            "description": "TunnelMaster tarjoaa liikenteen ja tunnelitoimintojen tilannekuvaa ja analytiikkaa reaaliaikaisen ja historiallisen operatiivisen datan avulla."
+            "description": "Tunnelimestari tarjoaa liikenteen ja tunnelitoimintojen tilannekuvaa ja analytiikkaa reaaliaikaisen ja historiallisen operatiivisen datan avulla."
         },
         "hero": {
             "eyebrow": "Tuote",
-            "title": "TunnelMaster",
+            "title": "Tunnelmestari",
             "subtitle": "Tunnel Operations Intelligence",
-            "description": "TunnelMaster kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
+            "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
             "demoButton": "Pyydä esittely",
             "loginButton": "Kirjaudu",
-            "imageAlt": "TunnelMasterin liikenteen ja tunnelitoimintojen analyysinäkymä"
+            "imageAlt": "Tunnelimestarin liikenteen ja tunnelitoimintojen analyysinäkymä"
         },
         "challenge": {
             "eyebrow": "Operatiivinen haaste",
             "title": "Ymmärrä mitä tapahtui — ja miksi",
             "paragraph1": "Liikenteenhallintaympäristöt tuottavat paljon operatiivista dataa, mutta opasteiden, liikennetilanteen ja tapahtumien kehityksen ymmärtäminen ajan kuluessa voi olla vaikeaa.",
-            "paragraph2": "TunnelMaster kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
+            "paragraph2": "Tunnelmestari kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
             "cardTitle": "Reaaliaikaisesta tilanteesta historialliseen kokonaiskuvaan",
-            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan TunnelMaster mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi VMS-opasteiden tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
+            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan Tunnelmestari mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi VMS-opasteiden tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
         },
         "capabilities": {
             "eyebrow": "Ominaisuudet",
@@ -140,7 +140,7 @@
         "users": {
             "eyebrow": "Kenelle",
             "title": "Tie- ja tunnelitoimintoihin",
-            "description": "TunnelMaster on suunniteltu organisaatioille, jotka vastaavat tie- ja tunnelialueiden operoinnista, valvonnasta ja analysoinnista.",
+            "description": "Tunnelmestari on suunniteltu organisaatioille, jotka vastaavat tie- ja tunnelialueiden operoinnista, valvonnasta ja analysoinnista.",
             "items": [
                 "Tunnelioperaattorit",
                 "Liikenteenhallintakeskukset",
@@ -157,11 +157,11 @@
                 "DATEX II",
                 "Avoin liikennedata"
             ],
-            "paragraph1": "TunnelMaster on suunniteltu hyödyntämään olemassa olevia liikenteenhallinnan ja liikenteen tietolähteitä sen sijaan, että se muodostaisi uuden erillisen operatiivisen järjestelmän.",
+            "paragraph1": "Tunnelmestari on suunniteltu hyödyntämään olemassa olevia liikenteenhallinnan ja liikenteen tietolähteitä sen sijaan, että se muodostaisi uuden erillisen operatiivisen järjestelmän.",
             "paragraph2": "Dataa voidaan integroida rajapintojen ja standardipohjaisten liityntöjen kautta, jolloin eri lähteistä tulevaa tietoa voidaan analysoida yhteisessä operatiivisessa kontekstissa."
         },
         "cta": {
-            "title": "Kiinnostuitko TunnelMasterista?",
+            "title": "Kiinnostuitko Tunnelmestarista?",
             "description": "Ota yhteyttä RoadMinded Systemsiin ja keskustellaan operatiivisesta ympäristöstäsi, käytettävissä olevista tietolähteistä tai mahdollisesta esittelystä.",
             "button": "Ota yhteyttä"
         }
