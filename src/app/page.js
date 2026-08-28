@@ -115,8 +115,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured product: Tunnelimestari */}
-      <section className="pt-10 pb-16 md:pt-12 md:pb-20 bg-base-100 border-b border-base-200">
+      {/* Featured product: TunnelMaster */}
+      <section className="pt-10 pb-16 md:pt-12 md:pb-20 bg-base-100 border-y border-base-200">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
 
@@ -143,7 +143,7 @@ export default function Home() {
 
               <ul className="mt-6 space-y-2 text-sm md:text-base opacity-80">
                 <li>• Real-time and historical VMS monitoring</li>
-                <li>• Incident and post-incident analysis</li>
+                <li>• Incident-focused operational analysis</li>
                 <li>• Operational timelines and historical review</li>
                 <li>• Traffic management reporting and statistics</li>
               </ul>
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Tunnel Master (tunnelimestari) image */}
+            {/* Tunnel Master dashboard */}
             <div className="rounded-2xl border border-base-300 bg-base-100 p-2 shadow-sm overflow-hidden">
               <Image
                 src="/images/tunnelmaster-dashboard.png"
@@ -199,28 +199,6 @@ export default function Home() {
             </Link>
           </div>
 
-          {/* Partners / logos */}
-          <section className="py-10 md:py-12 border-b border-base-200 bg-base-100">
-            <div className="max-w-6xl mx-auto px-6">
-              <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
-                Technology partners represented in Asia-Pacific
-              </p>
-              <div className="mt-4 flex flex-wrap items-center gap-10">
-                {PARTNERS.map((p) => (
-                  <div key={p.name} className="flex items-center gap-3 opacity-80">
-                    <Image
-                      src={p.logoSrc}
-                      alt={p.logoAlt}
-                      width={140}
-                      height={40}
-                      className="h-8 md:h-10 w-auto object-contain"
-                    />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
             {SERVICE_SUMMARY.map(({ icon: Icon, title, description, bullets }) => (
               <div
@@ -254,6 +232,32 @@ export default function Home() {
             <Link href="/services" className="btn btn-ghost btn-sm w-full">
               View all services
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Technology partners */}
+      <section className="py-10 md:py-12 border-y border-base-200 bg-base-100">
+        <div className="max-w-6xl mx-auto px-6">
+          <p className="text-xs md:text-sm uppercase tracking-[0.2em] opacity-60">
+            Technology partners represented in Asia-Pacific
+          </p>
+
+          <div className="mt-4 flex flex-wrap items-center gap-10">
+            {PARTNERS.map((p) => (
+              <div
+                key={p.name}
+                className="flex items-center gap-3 opacity-80"
+              >
+                <Image
+                  src={p.logoSrc}
+                  alt={p.logoAlt}
+                  width={140}
+                  height={40}
+                  className="h-8 md:h-10 w-auto object-contain"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
