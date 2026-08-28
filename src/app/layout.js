@@ -20,8 +20,8 @@ export const metadata = {
     template: "%s | RoadMinded Systems",
   },
   description:
-   "RoadMinded Systems develops intelligent transport software and " +
-   "provides ITS expertise for road, tunnel and connected mobility applications.",
+    "RoadMinded Systems develops intelligent transport software and " +
+    "provides ITS expertise for road, tunnel and connected mobility applications.",
 };
 
 export default function RootLayout({ children }) {
@@ -55,6 +55,9 @@ export default function RootLayout({ children }) {
                 </button>
                 <ul className="menu dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 border border-base-200">
                   <li>
+                    <Link href="/tunnelmaster">TunnelMaster</Link>
+                  </li>
+                  <li>
                     <Link href="/services">Services</Link>
                   </li>
                   <li>
@@ -74,6 +77,9 @@ export default function RootLayout({ children }) {
 
             {/* Desktop links */}
             <div className="hidden lg:flex items-center gap-2">
+              <Link href="/tunnelmaster" className="btn btn-ghost btn-sm text-base">
+                TunnelMaster
+              </Link>
               <Link href="/services" className="btn btn-ghost btn-sm text-base">
                 Services
               </Link>
@@ -100,20 +106,50 @@ export default function RootLayout({ children }) {
         {/* Footer */}
         <footer className="bg-base-200 border-t border-base-300">
           <div className="max-w-6xl mx-auto w-full px-6 py-10">
-            <div className="flex flex-col md:flex-row gap-6 items-start md:items-center justify-between">
-              <div className="opacity-80 text-sm">
-                © {new Date().getFullYear()} RoadMinded Systems
+            <div className="flex flex-col md:flex-row gap-8 items-start justify-between">
+
+              <div className="text-sm">
+                <div className="font-semibold">
+                  RoadMinded Systems Oy / Ltd
+                </div>
+
+                <div className="mt-2 opacity-70 space-y-1">
+                  <div>Finland</div>
+                  <div>Business ID: 3608959-6</div>
+                  <div>
+                    <a
+                      href="mailto:info@roadminded.com"
+                      className="link link-hover"
+                    >
+                      info@roadminded.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="mt-4 opacity-60">
+                  © {new Date().getFullYear()} RoadMinded Systems
+                </div>
               </div>
 
-              <div className="flex flex-wrap gap-4 text-sm">
+              <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+                <Link href="/tunnelmaster" className="link link-hover">
+                  TunnelMaster
+                </Link>
+
                 <Link href="/services" className="link link-hover">
                   Services
                 </Link>
+
                 <Link href="/about" className="link link-hover">
                   About
                 </Link>
+
                 <Link href="/contact" className="link link-hover">
                   Contact
+                </Link>
+
+                <Link href="/privacy" className="link link-hover">
+                  Privacy
                 </Link>
               </div>
             </div>
