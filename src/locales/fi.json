@@ -1,0 +1,433 @@
+{
+    "home": {
+        "metadata": {
+            "description": "RoadMinded Systems kehittää standardipohjaisia älyliikenteen ohjelmistoja, TunnelMaster-liikenteenhallinnan analytiikkapalvelua sekä teknisiä ratkaisuja Euroopan ja Aasian-Tyynenmeren markkinoille."
+        },
+        "hero": {
+            "eyebrow": "Standardipohjaiset ITS-ohjelmistot • Eurooppa & Aasia-Tyynimeri",
+            "title": "Ohjelmistoja älykkään liikenteen järjestelmiin",
+            "description": "RoadMinded Systems auttaa liikenteen toimijoita, viranomaisia ja teknologiayrityksiä hyödyntämään liikenne- ja infrastruktuuridataa turvallisemman, tehokkaamman ja kestävämmän liikenteen tukena.",
+            "primaryButton": "Ota yhteyttä",
+            "secondaryButton": "Tutustu palveluihin"
+        },
+        "product": {
+            "eyebrow": "Esittelyssä",
+            "title": "TunnelMaster",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "TunnelMaster kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa ymmärtämään liikenteen ohjaustoimenpiteitä, tapahtumia ja muuttuvia olosuhteita tie- ja tunneliympäristöissä.",
+            "bullets": [
+                "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
+                "Tapahtumiin keskittyvä operatiivinen analyysi",
+                "Operatiiviset aikajanat ja historiatarkastelu",
+                "Liikenteenhallinnan raportointi ja tilastot"
+            ],
+            "primaryButton": "Tutustu TunnelMasteriin",
+            "loginButton": "Kirjaudu"
+        },
+        "services": {
+            "title": "Mitä tarjoamme",
+            "description": "Standardipohjaisia ohjelmistoja ja asiantuntijapalveluita, jotka integroituvat olemassa oleviin älyliikenteen järjestelmiin ja infrastruktuurialustoihin.",
+            "viewAll": "Katso kaikki palvelut",
+            "items": [
+                {
+                    "title": "Liikenne- ja tunnelianalytiikka",
+                    "description": "Analytiikkaa ja päätöksenteon tukea tunneli- ja tieoperaattoreille sekä liikenteenhallintakeskuksille.",
+                    "bullets": [
+                        "VMS-opasteiden reaaliaikainen ja historiallinen analytiikka",
+                        "Tapahtuma- ja jälkianalyysi",
+                        "Standardipohjaiset integraatiot (esim. JSON, DATEX II, OpenLR)",
+                        "Pilvipohjainen ja skaalautuva arkkitehtuuri"
+                    ]
+                },
+                {
+                    "title": "Liikennejärjestelmien ohjelmistokehitys",
+                    "description": "Yhteentoimivien ja standardipohjaisten liikennejärjestelmien ohjelmistokomponenttien ja sovellusten suunnittelu ja kehitys.",
+                    "bullets": [
+                        "Taustajärjestelmien ja rajapintojen kehitys",
+                        "Avoimeen dataan perustuvat sovellukset",
+                        "Integraatiot olemassa oleviin ITS-ympäristöihin",
+                        "Tietomallinnus ja datan laadunhallinta",
+                        "Pilvi- ja hybridiratkaisut"
+                    ]
+                },
+                {
+                    "title": "ITS-arkkitehtuuri ja tekninen asiantuntijatyö",
+                    "description": "Teknistä asiantuntijatukea moderneihin älyliikenteen ja digitaalisen infrastruktuurin järjestelmiin itsenäisesti tai yhteistyössä valittujen kumppaneiden kanssa.",
+                    "bullets": [
+                        "Järjestelmäarkkitehtuuri ja integraatiosuunnittelu",
+                        "C-ITS- ja V2X-ekosysteemien suunnittelu",
+                        "Tie- ja katuverkon digitalisaatiostrategiat",
+                        "Avoimet standardit ja yhteentoimivuus"
+                    ]
+                }
+            ]
+        },
+        "partners": {
+            "title": "Aasian-Tyynenmeren alueella edustamamme teknologiakumppanit"
+        },
+        "why": {
+            "title": "Miksi RoadMinded Systems",
+            "description": "Yhdistämme käytännön älyliikenneosaamisen moderniin ohjelmistokehitykseen sekä avoimiin ja yhteentoimiviin standardeihin.",
+            "items": [
+                {
+                    "title": "ITS-toimialaosaaminen",
+                    "description": "Käytännön kokemusta maanteistä, tunneleista, liikenteenhallintakeskuksista ja älykkään kaupungin ympäristöistä."
+                },
+                {
+                    "title": "Standardit lähtökohtana",
+                    "description": "Kansainväliset ITS-standardit, kuten DATEX II, OpenLR ja C-ITS-määritykset, muodostavat järjestelmäsuunnittelumme perustan."
+                },
+                {
+                    "title": "Arkkitehtuurista toteutukseen",
+                    "description": "Konsepteista ja järjestelmäarkkitehtuurista toteutuksen tukeen ja integraatioihin olemassa olevissa ITS-ympäristöissä."
+                },
+                {
+                    "title": "Aasian-Tyynenmeren painotus",
+                    "description": "Eurooppalainen perusta ja aktiivinen toiminta Taiwanissa sekä muualla Aasian-Tyynenmeren alueella tukevat kansainvälistä käyttöönottoa ja yhteistyötä."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Suunnitteletko seuraavaa liikenne- tai infrastruktuurihankettasi?",
+            "description": "Kerro nykyisistä järjestelmistäsi, standardeista ja tavoitteista. Autamme hahmottamaan käytännöllisen etenemistavan suunnittelusta toteutukseen.",
+            "contactButton": "Ota yhteyttä",
+            "servicesButton": "Katso palvelut"
+        }
+    },
+    "tunnelmaster": {
+        "metadata": {
+            "description": "TunnelMaster tarjoaa liikenteen ja tunnelitoimintojen tilannekuvaa ja analytiikkaa reaaliaikaisen ja historiallisen operatiivisen datan avulla."
+        },
+        "hero": {
+            "eyebrow": "Tuote",
+            "title": "TunnelMaster",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "TunnelMaster kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
+            "demoButton": "Pyydä esittely",
+            "loginButton": "Kirjaudu",
+            "imageAlt": "TunnelMasterin liikenteen ja tunnelitoimintojen analyysinäkymä"
+        },
+        "challenge": {
+            "eyebrow": "Operatiivinen haaste",
+            "title": "Ymmärrä mitä tapahtui — ja miksi",
+            "paragraph1": "Liikenteenhallintaympäristöt tuottavat paljon operatiivista dataa, mutta opasteiden, liikennetilanteen ja tapahtumien kehityksen ymmärtäminen ajan kuluessa voi olla vaikeaa.",
+            "paragraph2": "TunnelMaster kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
+            "cardTitle": "Reaaliaikaisesta tilanteesta historialliseen kokonaiskuvaan",
+            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan TunnelMaster mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi VMS-opasteiden tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
+        },
+        "capabilities": {
+            "eyebrow": "Ominaisuudet",
+            "title": "Operatiivista tietoa liikenteenhallintadatasta",
+            "items": [
+                {
+                    "title": "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
+                    "description": "Tarkastele nykyisiä ja historiallisia Variable Message Sign -opasteiden tiloja valitulla tie- tai tunnelialueella."
+                },
+                {
+                    "title": "Tapahtumiin keskittyvä operatiivinen analyysi",
+                    "description": "Analysoi onnettomuuksiin, häiriöihin ja poikkeaviin tilanteisiin liittyvää operatiivista tietoa jälkikäteistä tarkastelua varten."
+                },
+                {
+                    "title": "Operatiiviset aikajanat",
+                    "description": "Tarkastele, miten liikenteenhallinnan toimenpiteet ja järjestelmien tilat muuttuivat ennen valittua tapahtumaa, sen aikana ja sen jälkeen."
+                },
+                {
+                    "title": "Raportointi ja tilastot",
+                    "description": "Hyödynnä historiallista operatiivista dataa raportoinnissa, toistuvassa analyysissä ja liikenteenhallintakäytäntöjen pitkäjänteisessä kehittämisessä."
+                }
+            ]
+        },
+        "users": {
+            "eyebrow": "Kenelle",
+            "title": "Tie- ja tunnelitoimintoihin",
+            "description": "TunnelMaster on suunniteltu organisaatioille, jotka vastaavat tie- ja tunnelialueiden operoinnista, valvonnasta ja analysoinnista.",
+            "items": [
+                "Tunnelioperaattorit",
+                "Liikenteenhallintakeskukset",
+                "Tieviranomaiset",
+                "Operointi- ja kunnossapitotiimit"
+            ]
+        },
+        "integration": {
+            "eyebrow": "Data ja integraatiot",
+            "title": "Rakennettu olemassa olevan liikennedatan ympärille",
+            "tags": [
+                "REST-rajapinnat",
+                "JSON",
+                "DATEX II",
+                "Avoin liikennedata"
+            ],
+            "paragraph1": "TunnelMaster on suunniteltu hyödyntämään olemassa olevia liikenteenhallinnan ja liikenteen tietolähteitä sen sijaan, että se muodostaisi uuden erillisen operatiivisen järjestelmän.",
+            "paragraph2": "Dataa voidaan integroida rajapintojen ja standardipohjaisten liityntöjen kautta, jolloin eri lähteistä tulevaa tietoa voidaan analysoida yhteisessä operatiivisessa kontekstissa."
+        },
+        "cta": {
+            "title": "Kiinnostuitko TunnelMasterista?",
+            "description": "Ota yhteyttä RoadMinded Systemsiin ja keskustellaan operatiivisesta ympäristöstäsi, käytettävissä olevista tietolähteistä tai mahdollisesta esittelystä.",
+            "button": "Ota yhteyttä"
+        }
+    },
+    "servicesPage": {
+        "metadata": {
+            "description": "RoadMinded Systems tarjoaa älyliikenteen ohjelmistotuotteita, liikennejärjestelmien ohjelmistokehitystä ja teknisiä asiantuntijapalveluita."
+        },
+        "hero": {
+            "eyebrow": "Palvelut",
+            "title": "Ohjelmistotuotteita ja teknisiä palveluita älykkään liikenteen järjestelmiin",
+            "description": "Kehitämme standardipohjaisia liikennejärjestelmien ohjelmistoja ja tarjoamme teknisiä palveluita, jotka integroituvat olemassa oleviin ITS-ympäristöihin ja tukevat turvallisempaa, tehokkaampaa ja kestävämpää liikennettä.",
+            "primaryButton": "Ota yhteyttä",
+            "secondaryButton": "Tutustu tarjontaamme"
+        },
+        "product": {
+            "eyebrow": "Tuote",
+            "sectionTitle": "Liikenteen operatiivisen analytiikan tuotteemme",
+            "title": "Tunnelimestari",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "Tunnelimestari tarjoaa tunnelioperaattoreille, liikenteenhallintakeskuksille ja tieviranomaisille operatiivista tilannekuvaa ja analytiikkaa yhdistämällä reaaliaikaisen ja historiallisen liikenteenhallintadatan samaan näkymään.",
+            "capabilitiesLabel": "Ominaisuudet",
+            "bullets": [
+                "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
+                "Tapahtumiin keskittyvä operatiivinen analyysi",
+                "Operatiiviset aikajanat ja historiatarkastelu",
+                "Liikenteenhallinnan raportointi ja tilastot"
+            ],
+            "button": "Tutustu Tunnelimestariin"
+        },
+        "services": {
+            "eyebrow": "Tekniset palvelut",
+            "title": "Ohjelmistokehitys ja tekninen asiantuntijatyö",
+            "description": "Käytännönläheisiä teknisiä palveluita olemassa oleviin ITS-ympäristöihin, avoimiin standardeihin ja pitkäjänteiseen ylläpidettävyyteen.",
+            "capabilitiesLabel": "Osaamisalueet",
+            "items": [
+                {
+                    "title": "Liikennejärjestelmien ohjelmistokehitys",
+                    "description": "Yhteentoimivien ja standardipohjaisten liikennejärjestelmien ohjelmistokomponenttien ja sovellusten suunnittelu ja kehitys. Tuemme liikenteen toimijoita ja teknologiayrityksiä ylläpidettävien ja skaalautuvien ITS-taustajärjestelmien rakentamisessa.",
+                    "bullets": [
+                        "Taustajärjestelmien ja rajapintojen kehitys",
+                        "Avoimeen dataan perustuvat sovellukset",
+                        "Liikennedatan tietovirrat ja mallinnus",
+                        "Integraatiot olemassa oleviin ITS-järjestelmiin",
+                        "Pilvi- ja hybridiarkkitehtuurit"
+                    ]
+                },
+                {
+                    "title": "ITS-arkkitehtuuri ja tekninen asiantuntijatyö",
+                    "description": "Teknistä tukea nykyaikaisiin älyliikenteen ja digitaalisen infrastruktuurin järjestelmiin. Autamme määrittelemään vaatimuksia, integraatiostrategioita ja yhteentoimivia järjestelmäarkkitehtuureja.",
+                    "bullets": [
+                        "Järjestelmäarkkitehtuuri ja integraatiosuunnittelu",
+                        "C-ITS- ja V2X-ekosysteemien suunnittelu",
+                        "Tie- ja katuverkon digitalisaatiostrategiat",
+                        "Avoimet standardit ja yhteentoimivuus"
+                    ],
+                    "note": "Asiantuntijatyö voidaan toteuttaa itsenäisesti tai yhteistyössä valittujen kumppaneiden kanssa."
+                }
+            ]
+        },
+        "partners": {
+            "title": "Strategiset teknologiakumppanit Aasian-Tyynenmeren alueella",
+            "description": "Omien ohjelmistojemme ja teknisten palveluidemme lisäksi RoadMinded Systems edustaa valittuja eurooppalaisia teknologiakumppaneita Aasian-Tyynenmeren markkinoilla AI-pohjaisen infrastruktuurin kunnossapidon ja V2X-ratkaisujen alueilla.",
+            "representedLabel": "Edustamme Taiwanissa ja Aasian-Tyynenmeren alueella",
+            "websiteButton": "Tutustu verkkosivuun",
+            "items": [
+                {
+                    "name": "ScanwAi – AI-Powered Infrastructure Intelligence",
+                    "logoSrc": "/logos/scanwai-1.png",
+                    "logoAlt": "ScanwAi-logo",
+                    "logoClassName": "h-10 md:h-12",
+                    "website": "https://scanwai.com",
+                    "description": "Tekoälypohjaista infrastruktuuritietoa tie- ja lentoasemaympäristöjen kunnossapitoon, kuntoseurantaan ja tietopohjaiseen päätöksentekoon.",
+                    "bullets": [
+                        "Tekoälyavusteinen teiden ja infrastruktuurin kuntoseuranta",
+                        "Vaurioiden varhainen tunnistaminen ja kunnossapidon priorisointi",
+                        "Reaaliaikainen ja historiallinen infrastruktuurianalytiikka",
+                        "Mobiili kenttätiedon keruu ja omaisuustiedon inventointi",
+                        "Päätöksenteon tuki turvallisempaan ja tehokkaampaan kunnossapitoon"
+                    ]
+                },
+                {
+                    "name": "Digitraffic – Connected Mobility & V2X",
+                    "logoSrc": "/logos/digitraffic.png",
+                    "logoAlt": "Digitraffic-logo",
+                    "logoClassName": "h-8 md:h-10",
+                    "website": "https://digitraffic.se",
+                    "description": "Standardipohjaisia ohjelmistoja ja osaamista verkottuneeseen ja yhteistoiminnalliseen liikenteeseen yhdistäen ajoneuvot, tieinfrastruktuurin, viranomaiset ja älykkäät kaupungit.",
+                    "bullets": [
+                        "C-ITS- ja verkottuneen liikenteen ohjelmistot ja asiantuntemus",
+                        "Reaaliaikainen digitaalinen liikennetilannekuva ja tiedonvaihto",
+                        "Link V2X -ohjelmistopohjainen V2X-viestintäalusta",
+                        "Avoimet standardit, yhteentoimivuus ja C-ITS-tietoturva",
+                        "Kehittäjätyökalut verkottuneen ja automatisoidun liikenteen palveluihin"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Kehitätkö tai uudistatko liikennejärjestelmiä?",
+            "description": "Kerro operatiivisesta ympäristöstäsi, järjestelmistäsi ja tavoitteistasi, niin voimme yhdessä hahmottaa käytännöllisen etenemistavan.",
+            "button": "Ota yhteyttä"
+        }
+    },
+    "aboutPage": {
+        "metadata": {
+            "description": "Tutustu RoadMinded Systemsiin, suomalaiseen ITS-ohjelmistoyritykseen, joka yhdistää liikennealan osaamisen, modernin ohjelmistokehityksen ja avoimet standardit Euroopassa ja Aasian-Tyynenmeren alueella."
+        },
+        "hero": {
+            "eyebrow": "Meistä",
+            "title": "Riippumatonta ohjelmistokehitystä ja teknistä asiantuntijatyötä älykkään liikenteen järjestelmiin",
+            "description": "RoadMinded Systems yhdistää liikennealan osaamisen moderniin ohjelmistokehitykseen ja avoimiin standardeihin. Tuemme liikenteen toimijoita, viranomaisia ja teknologiayrityksiä järjestelmien suunnittelussa, kehittämisessä ja parantamisessa turvallisemman, tehokkaamman ja kestävämmän liikenteen tueksi."
+        },
+        "who": {
+            "title": "Keitä olemme",
+            "description": "RoadMinded Systems on ohjelmistokeskeinen yritys, joka toimii älykkään liikenteen järjestelmien (ITS) ja modernin digitaalisen infrastruktuurin rajapinnassa.",
+            "bullets": [
+                "Kokemusta viranomaisista, tieoperaattoreista ja liikenteenhallintakeskuksista",
+                "Pilvipohjainen ohjelmistokehitys liikenneympäristöihin",
+                "Avoimet standardit ja yhteentoimivuus arkkitehtuurin lähtökohtina"
+            ],
+            "closing": "Työskentelemme liikenteen toimijoiden ja teknologiayritysten kanssa suunnitellen kestäviä, standardipohjaisia järjestelmiä, jotka integroituvat olemassa oleviin liikennejärjestelmäympäristöihin."
+        },
+        "region": {
+            "title": "Painopiste Euroopassa ja Aasian-Tyynenmeren alueella",
+            "paragraph1": "RoadMinded Systems on suomalainen yritys ja toimii aktiivisesti Taiwanissa sekä laajemmin Aasian-Tyynenmeren alueella.",
+            "paragraph2": "Yhdistämme eurooppalaiset ITS-standardit ja toimintamallit käytännön ymmärrykseen paikallisista käyttöönottoympäristöistä, mikä tukee kansainvälistä yhteistyötä ja kestävää järjestelmäsuunnittelua."
+        },
+        "leadership": {
+            "title": "Johto",
+            "name": "Ilkka (家安迪) Kotilainen — Perustaja",
+            "paragraphs": [
+                "Ilkka Kotilainen on ohjelmistoinsinööri ja liikennejärjestelmien asiantuntija, jonka osaamisen painopisteitä ovat älykkään liikenteen järjestelmät (ITS), liikennedatan käsittely ja standardipohjainen ohjelmistosuunnittelu.",
+                "Hänen kokemuksensa kattaa viranomaisia, tieoperaattoreita ja teollisuutta sekä käytännön yhteistyötä liikenteenhallintakeskusten ja tunnelitoimijoiden kanssa järjestelmäpiloteissa, selvityksissä ja yhteentoimivien ohjelmistoratkaisujen kehittämisessä.",
+                "Työssä korostuvat pilvipohjainen arkkitehtuuri, avoimet standardit ja pitkäaikainen ylläpidettävyys kestävien ja tulevaisuuden tarpeisiin mukautuvien liikennejärjestelmien tukena."
+            ],
+            "emailButton": "Lähetä sähköpostia"
+        },
+        "process": {
+            "title": "Miten työskentelemme",
+            "description": "Lähestymme liikenteen ja infrastruktuurin ohjelmistohaasteita käytännönläheisesti keskittyen selkeyteen, tekniseen toimivuuteen ja ylläpidettäviin ratkaisuihin.",
+            "items": [
+                {
+                    "title": "1. Ymmärrä ja täsmennä",
+                    "description": "Analysoimme nykyiset järjestelmät, datan ja operatiivisen ympäristön, jotta tekniset tavoitteet, rajoitteet ja integraatiotarpeet voidaan määritellä selkeästi."
+                },
+                {
+                    "title": "2. Arkkitehtuuri ja suunnittelu",
+                    "description": "Suunnittelemme järjestelmäarkkitehtuurit, tietomallit ja integraatiomallit avoimien standardien, yhteentoimivuuden ja tietoturvan periaatteiden mukaisesti."
+                },
+                {
+                    "title": "3. Kehitä ja paranna",
+                    "description": "Kehitämme kohdennettuja ohjelmistoratkaisuja ja analyysityökaluja tunnistettuihin tarpeisiin ja parannamme niitä testauksen ja palautteen avulla."
+                }
+            ]
+        },
+        "principles": {
+            "title": "Periaatteet",
+            "description": "Nämä periaatteet ohjaavat liikennejärjestelmien suunnittelua, kehittämistä ja integrointia.",
+            "items": [
+                {
+                    "title": "Standardilähtöisyys",
+                    "description": "Suosimme avoimia ja hyvin määriteltyjä standardeja toimittajalukon vähentämiseksi ja järjestelmien välisen yhteentoimivuuden varmistamiseksi."
+                },
+                {
+                    "title": "Käytännönläheisyys",
+                    "description": "Keskitymme ratkaisuihin, jotka voidaan realistisesti toteuttaa ja ylläpitää teknisessä ja organisatorisessa toimintaympäristössä."
+                },
+                {
+                    "title": "Läpinäkyvyys",
+                    "description": "Viestimme oletukset, kompromissit ja riskit selkeästi, jotta teknisiä ja strategisia päätöksiä voidaan tehdä tietoon perustuen."
+                },
+                {
+                    "title": "Pitkäjänteisyys",
+                    "description": "Suunnittelemme ratkaisut koko elinkaarta, ylläpidettävyyttä ja tulevaa kehitystä varten — emme vain ensimmäistä käyttöönottoa."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Keskustellaan seuraavasta hankkeestasi.",
+            "description": "Olipa kyse datan analysoinnista, järjestelmien kehittämisestä tai räätälöidystä ohjelmistoratkaisusta, keskustelemme mielellämme siitä, miten voimme tukea tavoitteitasi.",
+            "button": "Ota yhteyttä"
+        }
+    },
+    "contactPage": {
+        "metadata": {
+            "description": "Ota yhteyttä RoadMinded Systemsiin älyliikenteen järjestelmistä, liikenneohjelmistoista, Tunnelimestarista tai teknisestä yhteistyöstä."
+        },
+        "hero": {
+            "eyebrow": "Yhteystiedot",
+            "title": "Keskustellaan seuraavasta liikennealan hankkeestasi.",
+            "description": "Helpoin tapa ottaa meihin yhteyttä on sähköposti. Kerro lyhyesti organisaatiostasi, järjestelmistäsi ja tavoitteistasi, niin palaamme asiaan."
+        },
+        "email": {
+            "title": "Sähköposti",
+            "description": "Lähetä lyhyt kuvaus organisaatiostasi, hankkeen taustasta ja tavoitteista.",
+            "addressLabel": "Sähköpostiosoite",
+            "subjectLabel": "Ehdotettu aihe",
+            "subject": "Yhteydenotto – älyliikenteen järjestelmät",
+            "button": "Lähetä sähköpostia"
+        },
+        "include": {
+            "title": "Mitä viestiin kannattaa sisällyttää",
+            "description": "Kerro lyhyesti seuraavista asioista:",
+            "items": [
+                "Organisaatiosi ja roolisi",
+                "Hankkeeseen liittyvät järjestelmät tai infrastruktuuri",
+                "Haaste tai mahdollisuus, jota haluat tarkastella",
+                "Mahdollinen aikataulu tai keskeiset rajoitteet"
+            ]
+        },
+        "next": {
+            "title": "Seuraavat vaiheet",
+            "description": "Käytämme viestiäsi vain yhteydenottoon vastaamiseen ja mahdollisten jatkotoimien arviointiin. Tarvittaessa ehdotamme puhelua tai tapaamista keskustelun jatkamiseksi."
+        }
+    },
+    "privacyPage": {
+        "metadata": {
+            "description": "RoadMinded Systemsin verkkosivuston ja liiketoimintaan liittyvien yhteydenottojen tietosuojatiedot."
+        },
+        "hero": {
+            "eyebrow": "Tietosuoja",
+            "title": "Tietosuojailmoitus",
+            "description": "Tässä tietosuojailmoituksessa kuvataan, miten RoadMinded Systems käsittelee henkilötietoja verkkosivuston ja yleisten liiketoimintaan liittyvien yhteydenottojen yhteydessä."
+        },
+        "controller": {
+            "title": "1. Rekisterinpitäjä",
+            "emailLabel": "Sähköposti"
+        },
+        "data": {
+            "title": "2. Käsiteltävät henkilötiedot",
+            "paragraphs": [
+                "Voimme käsitellä yhteydenoton yhteydessä antamiasi henkilötietoja, kuten nimeäsi, sähköpostiosoitettasi, organisaatiotasi, rooliasi ja viestisi sisältöä.",
+                "Verkkosivuston toimintaan ja tietoturvaan käytettävät palvelut voivat lisäksi käsitellä teknisiä tietoja, kuten IP-osoitteita ja pyyntölokeja."
+            ]
+        },
+        "purpose": {
+            "title": "3. Henkilötietojen käsittelyn tarkoitus",
+            "paragraphs": [
+                "Henkilötietoja voidaan käsitellä yhteydenottoihin vastaamiseksi, mahdollisten hankkeiden ja liiketoimintasuhteiden arvioimiseksi, asiakkaiden ja kumppaneiden kanssa viestimiseksi sekä verkkosivuston toiminnan ja tietoturvan ylläpitämiseksi.",
+                "Käsittely perustuu oikeutettuun etuumme harjoittaa ja kehittää liiketoimintaamme sekä tarvittaessa sopimuksen tekemistä edeltäviin toimenpiteisiin."
+            ]
+        },
+        "retention": {
+            "title": "4. Säilytys ja palveluntarjoajat",
+            "paragraphs": [
+                "Henkilötietoja säilytetään vain niin kauan kuin se on edellä kuvattujen tarkoitusten sekä sovellettavien lakisääteisten, sopimuksellisten ja kirjanpidollisten velvoitteiden kannalta tarpeellista.",
+                "Voimme käyttää verkkosivuston ylläpitoon, sähköpostiin, viestintään ja muihin teknisiin palveluihin ulkopuolisia palveluntarjoajia. Jos henkilötietoja siirretään Euroopan talousalueen ulkopuolelle, käytämme sovellettavan tietosuojalainsäädännön edellyttämiä asianmukaisia suojatoimia."
+            ]
+        },
+        "cookies": {
+            "title": "5. Evästeet ja analytiikka",
+            "description": "RoadMinded Systems ei tällä hetkellä käytä tällä verkkosivustolla mainonta- tai markkinointievästeitä. Jos myöhemmin otamme käyttöön analytiikkaa tai muita tekniikoita, jotka edellyttävät lisätietoja tai suostumusta, päivitämme tätä tietosuojailmoitusta."
+        },
+        "rights": {
+            "title": "6. Oikeutesi",
+            "paragraphs": [
+                "Tilanteesta riippuen sinulla voi olla oikeus tarkastaa, oikaista tai poistaa henkilötietosi, rajoittaa tai vastustaa niiden käsittelyä sekä pyytää tietojen siirtämistä järjestelmästä toiseen.",
+                "Sinulla on myös oikeus tehdä valitus toimivaltaiselle tietosuojaviranomaiselle."
+            ],
+            "contactText": "Jos haluat käyttää oikeuksiasi tai kysyä henkilötietojesi käsittelystä, ota yhteyttä"
+        },
+        "tunnelmaster": {
+            "title": "Tunnelimestari-palvelu",
+            "description": "Tämä tietosuojailmoitus koskee RoadMinded Systemsin verkkosivustoa ja yleistä liiketoimintaviestintää. Tunnelimestari-palvelussa käsiteltäviin henkilötietoihin voidaan soveltaa erillisiä tietosuojatietoja ja sopimukseen perustuvia henkilötietojen käsittelyehtoja."
+        },
+        "updated": "Päivitetty viimeksi: 28.8.2026"
+    }
+}

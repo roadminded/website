@@ -1,0 +1,433 @@
+{
+    "home": {
+        "metadata": {
+            "description": "RoadMinded Systems develops standards-based ITS software, TunnelMaster traffic operations intelligence and technical solutions for Europe and Asia-Pacific."
+        },
+        "hero": {
+            "eyebrow": "Standards-Based ITS Software • Europe & Asia-Pacific",
+            "title": "Building Software for Intelligent Transport Systems",
+            "description": "RoadMinded Systems supports operators, authorities and technology providers in transforming transport and infrastructure data into safer, more efficient and sustainable operations.",
+            "primaryButton": "Talk to us",
+            "secondaryButton": "Explore services"
+        },
+        "product": {
+            "eyebrow": "Featured product",
+            "title": "TunnelMaster",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "TunnelMaster brings real-time and historical traffic management data into one analytical view, helping operators understand traffic control actions, incidents and changing conditions across road and tunnel environments.",
+            "bullets": [
+                "Real-time and historical VMS monitoring",
+                "Incident-focused operational analysis",
+                "Operational timelines and historical review",
+                "Traffic management reporting and statistics"
+            ],
+            "primaryButton": "Explore TunnelMaster",
+            "loginButton": "Login"
+        },
+        "services": {
+            "title": "What we deliver",
+            "description": "Standards-based software and advisory services designed to integrate with existing Intelligent Transport Systems and infrastructure platforms.",
+            "viewAll": "View all services",
+            "items": [
+                {
+                    "title": "Transport & Tunnel Intelligence",
+                    "description": "Analytics and decision-support for tunnel and highway operators as well as traffic management centres.",
+                    "bullets": [
+                        "Real-time and historical Variable Message Sign (VMS) analytics",
+                        "Incident and post-incident analysis",
+                        "Standards-based integrations (e.g. JSON, DATEX II, OpenLR)",
+                        "Cloud-native and scalable architecture"
+                    ]
+                },
+                {
+                    "title": "Transport Software Engineering",
+                    "description": "Design and development of interoperable, standards-based transport software components and applications.",
+                    "bullets": [
+                        "Backend platforms and API development",
+                        "Open-data-driven applications",
+                        "Integration with existing ITS ecosystems",
+                        "Data modelling and quality frameworks",
+                        "Cloud-native and hybrid deployments"
+                    ]
+                },
+                {
+                    "title": "ITS Architecture & Technical Advisory",
+                    "description": "Technical guidance for modern ITS and digital infrastructure systems, delivered independently or in collaboration with selected partners.",
+                    "bullets": [
+                        "System architecture and integration design",
+                        "C-ITS and V2X ecosystem planning",
+                        "Road and street network digitalisation strategy",
+                        "Open standards and interoperability frameworks"
+                    ]
+                }
+            ]
+        },
+        "partners": {
+            "title": "Technology partners represented in Asia-Pacific"
+        },
+        "why": {
+            "title": "Why RoadMinded Systems",
+            "description": "We combine practical Intelligent Transport Systems expertise with modern software engineering and open, interoperable standards.",
+            "items": [
+                {
+                    "title": "ITS domain expertise",
+                    "description": "Practical experience across highways, tunnels, traffic management centres and smart city ecosystems."
+                },
+                {
+                    "title": "Standards-first",
+                    "description": "International ITS standards — including DATEX II, OpenLR and C-ITS specifications — form the foundation of our system design."
+                },
+                {
+                    "title": "Architecture & delivery",
+                    "description": "From concept and system architecture to implementation support and integration within existing ITS environments."
+                },
+                {
+                    "title": "Asia-Pacific focus",
+                    "description": "European foundations with active engagement in Taiwan and the wider Asia-Pacific region, supporting cross-border deployment and collaboration."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Planning your next transport or infrastructure project?",
+            "description": "Share your current systems, standards and goals. We'll help you define a practical path from concept to deployment.",
+            "contactButton": "Contact us",
+            "servicesButton": "View services"
+        }
+    },
+    "tunnelmaster": {
+        "metadata": {
+            "description": "TunnelMaster provides traffic and tunnel operations intelligence through real-time and historical operational data analysis."
+        },
+        "hero": {
+            "eyebrow": "Product",
+            "title": "TunnelMaster",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "TunnelMaster brings real-time and historical traffic management data into one analytical view, helping tunnel operators, traffic management centres and road authorities understand operational events, traffic control actions and changing conditions over time.",
+            "demoButton": "Request a demonstration",
+            "loginButton": "Login",
+            "imageAlt": "TunnelMaster traffic and tunnel operations dashboard"
+        },
+        "challenge": {
+            "eyebrow": "Operational challenge",
+            "title": "Understand what happened — and why",
+            "paragraph1": "Traffic management environments generate large amounts of operational data, but understanding how signs, traffic conditions and events developed over time can be difficult.",
+            "paragraph2": "TunnelMaster brings this information together to support retrospective analysis, operational review and continuous improvement.",
+            "cardTitle": "From live situation to historical context",
+            "cardText": "Instead of viewing only the current operational state, TunnelMaster makes it possible to review how traffic management actions and conditions changed over time — for example, by examining VMS states before, during and after an incident."
+        },
+        "capabilities": {
+            "eyebrow": "Capabilities",
+            "title": "Operational insight from traffic management data",
+            "items": [
+                {
+                    "title": "Real-time and historical VMS monitoring",
+                    "description": "Review current and historical Variable Message Sign states across the selected road or tunnel environment."
+                },
+                {
+                    "title": "Incident-focused operational analysis",
+                    "description": "Analyse operational information around incidents and unusual situations to support retrospective review."
+                },
+                {
+                    "title": "Operational timelines",
+                    "description": "Examine how traffic management actions and system states changed before, during and after selected events."
+                },
+                {
+                    "title": "Reporting and statistics",
+                    "description": "Use historical operational data to support reporting, recurring analysis and longer-term development of traffic management practices."
+                }
+            ]
+        },
+        "users": {
+            "eyebrow": "Designed for",
+            "title": "Road and tunnel operations",
+            "description": "TunnelMaster is designed for organisations responsible for operating, monitoring and analysing road and tunnel environments.",
+            "items": [
+                "Tunnel operators",
+                "Traffic management centres",
+                "Road authorities",
+                "Operations & maintenance teams"
+            ]
+        },
+        "integration": {
+            "eyebrow": "Data and integration",
+            "title": "Built around existing transport data",
+            "tags": [
+                "REST APIs",
+                "JSON",
+                "DATEX II",
+                "Open transport data"
+            ],
+            "paragraph1": "TunnelMaster is designed to work with existing traffic management and transport data sources rather than creating another isolated operational system.",
+            "paragraph2": "Data can be integrated through APIs and standards-based interfaces, enabling information from different sources to be analysed within a common operational context."
+        },
+        "cta": {
+            "title": "Interested in TunnelMaster?",
+            "description": "Contact RoadMinded Systems to discuss your operational environment, available data sources or a potential demonstration.",
+            "button": "Contact us"
+        }
+    },
+    "servicesPage": {
+        "metadata": {
+            "description": "RoadMinded Systems provides ITS software products, transport software engineering and technical advisory services."
+        },
+        "hero": {
+            "eyebrow": "Services",
+            "title": "Software Products and Technical Services for Intelligent Transport Systems",
+            "description": "We develop standards-based transport software and provide technical services that integrate with existing ITS ecosystems and support safer, more efficient and sustainable transport operations.",
+            "primaryButton": "Talk to us",
+            "secondaryButton": "Explore our offering"
+        },
+        "product": {
+            "eyebrow": "Product",
+            "sectionTitle": "Our transport intelligence platform",
+            "title": "TunnelMaster",
+            "subtitle": "Tunnel Operations Intelligence",
+            "description": "Operational intelligence for tunnel operators, traffic management centres and road authorities, combining real-time and historical traffic management data in one analytical view.",
+            "capabilitiesLabel": "Capabilities",
+            "bullets": [
+                "Real-time and historical Variable Message Sign (VMS) monitoring",
+                "Incident-focused operational analysis",
+                "Operational timelines and historical review",
+                "Traffic management reporting and statistics"
+            ],
+            "button": "Explore TunnelMaster"
+        },
+        "services": {
+            "eyebrow": "Technical services",
+            "title": "Software engineering and technical advisory",
+            "description": "Practical technical services designed around existing ITS environments, open standards and long-term maintainability.",
+            "capabilitiesLabel": "Capabilities",
+            "items": [
+                {
+                    "title": "Transport Software Engineering",
+                    "description": "Design and development of interoperable, standards-based transport software components and applications. We support operators and technology providers in building maintainable and scalable ITS backend systems.",
+                    "bullets": [
+                        "Backend platform and API development",
+                        "Open-data-driven applications",
+                        "Transport data pipelines and modelling",
+                        "Integration into existing ITS stacks",
+                        "Cloud-native and hybrid architectures"
+                    ]
+                },
+                {
+                    "title": "ITS Architecture & Technical Advisory",
+                    "description": "Technical guidance for modern ITS and digital infrastructure systems. We help clarify requirements, define integration strategies and design interoperable system architectures.",
+                    "bullets": [
+                        "System architecture and integration design",
+                        "C-ITS and V2X ecosystem planning",
+                        "Road and street network digitalisation strategy",
+                        "Open standards and interoperability strategy"
+                    ],
+                    "note": "Advisory engagements may be delivered independently or in collaboration with selected partners."
+                }
+            ]
+        },
+        "partners": {
+            "title": "Strategic Partnerships in Asia-Pacific",
+            "description": "In addition to our own software and technical services, RoadMinded Systems represents selected European technology partners in the Asia-Pacific market, enabling advanced AI-based infrastructure maintenance and V2X connectivity solutions.",
+            "representedLabel": "Represented in Taiwan and Asia-Pacific",
+            "websiteButton": "Visit website",
+            "items": [
+                {
+                    "name": "ScanwAi – AI-Powered Infrastructure Intelligence",
+                    "logoSrc": "/logos/scanwai-1.png",
+                    "logoAlt": "ScanwAi Logo",
+                    "logoClassName": "h-10 md:h-12",
+                    "website": "https://scanwai.com",
+                    "description": "AI-powered infrastructure intelligence for road and airport maintenance, condition monitoring and data-driven decision support.",
+                    "bullets": [
+                        "AI-assisted road and infrastructure condition monitoring",
+                        "Early defect detection and maintenance prioritisation",
+                        "Real-time and historical infrastructure analytics",
+                        "Mobile field data collection and asset inventory",
+                        "Decision support for safer and more efficient maintenance"
+                    ]
+                },
+                {
+                    "name": "Digitraffic – Connected Mobility & V2X",
+                    "logoSrc": "/logos/digitraffic.png",
+                    "logoAlt": "Digitraffic Logo",
+                    "logoClassName": "h-8 md:h-10",
+                    "website": "https://digitraffic.se",
+                    "description": "Standards-based software and expertise for connected and cooperative mobility, linking vehicles, road infrastructure, authorities and smart cities.",
+                    "bullets": [
+                        "C-ITS and connected mobility software and expertise",
+                        "Real-time digital traffic perception and data exchange",
+                        "Link V2X software-defined V2X communication platform",
+                        "Open standards, interoperability and C-ITS security",
+                        "Developer tools for connected and automated mobility services"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Looking to develop or modernise your transport systems?",
+            "description": "Tell us about your operational environment, systems and objectives, and we can explore a practical way forward.",
+            "button": "Contact us"
+        }
+    },
+    "aboutPage": {
+        "metadata": {
+            "description": "Learn about RoadMinded Systems, a Finnish ITS software company combining transport expertise, modern software engineering and open standards across Europe and Asia-Pacific."
+        },
+        "hero": {
+            "eyebrow": "About",
+            "title": "Independent Software and Technical Advisory for Intelligent Transport Systems",
+            "description": "RoadMinded Systems bridges transport domain expertise with modern software engineering and open standards. We support operators, authorities and technology providers in designing, building and improving systems that support safer, more efficient and sustainable transport operations."
+        },
+        "who": {
+            "title": "Who we are",
+            "description": "RoadMinded Systems is a software-led company operating at the intersection of Intelligent Transport Systems (ITS) and modern digital infrastructure.",
+            "bullets": [
+                "Experience within public authorities, highway operators and traffic management centres",
+                "Cloud-native software engineering for transport environments",
+                "Open standards and interoperability as core architectural principles"
+            ],
+            "closing": "We work with operators and technology providers to design resilient, standards-based systems that integrate seamlessly into existing transport ecosystems."
+        },
+        "region": {
+            "title": "Focused on Europe and Asia-Pacific",
+            "paragraph1": "RoadMinded Systems is incorporated in Finland and operates actively in Taiwan and the wider Asia-Pacific region.",
+            "paragraph2": "We combine European ITS standards and governance frameworks with practical insight into local deployment environments, enabling cross-border collaboration and resilient system design."
+        },
+        "leadership": {
+            "title": "Leadership",
+            "name": "Ilkka (家安迪) Kotilainen — Founder",
+            "paragraphs": [
+                "Ilkka Kotilainen is a software engineer and transport systems specialist focused on Intelligent Transport Systems (ITS), transport data engineering and standards-based software design.",
+                "His experience spans public authorities, highway operators and industry, working directly with traffic management centres and tunnel operations teams on system pilots, studies and the development of interoperable, standards-compliant software solutions.",
+                "His work emphasizes cloud-native architecture, open standards and long-term maintainability to support resilient and future-proof transport systems."
+            ],
+            "emailButton": "Email me"
+        },
+        "process": {
+            "title": "How we work",
+            "description": "We take a practical, problem-solving approach to transport and infrastructure software challenges, focusing on clarity, technical soundness and maintainable solutions.",
+            "items": [
+                {
+                    "title": "1. Understand & clarify",
+                    "description": "We analyse your existing systems, data and operational context to define clear technical objectives, constraints and integration requirements."
+                },
+                {
+                    "title": "2. Architect & design",
+                    "description": "We design system architectures, data models and integration patterns aligned with open standards, interoperability and security principles."
+                },
+                {
+                    "title": "3. Develop & iterate",
+                    "description": "We develop targeted software solutions or analytical tools to address identified needs, refining them through testing and feedback to ensure reliable integration within existing ITS environments."
+                }
+            ]
+        },
+        "principles": {
+            "title": "Principles",
+            "description": "These principles guide how we design, develop and integrate transport systems.",
+            "items": [
+                {
+                    "title": "Standards-driven",
+                    "description": "We prioritise open, well-defined standards to reduce vendor lock-in and ensure interoperability across systems and stakeholders."
+                },
+                {
+                    "title": "Pragmatic",
+                    "description": "We focus on solutions that can be realistically implemented and operated within your technical and organisational context."
+                },
+                {
+                    "title": "Transparent",
+                    "description": "We communicate assumptions, trade-offs and risks clearly, enabling informed technical and strategic decisions."
+                },
+                {
+                    "title": "Long-term",
+                    "description": "We design for lifecycle sustainability, maintainability and future evolution — not only initial deployment."
+                }
+            ]
+        },
+        "cta": {
+            "title": "Let's discuss your next project.",
+            "description": "Whether you are analysing data, planning system improvements or developing tailored software solutions, we would be glad to explore how we can support your objectives.",
+            "button": "Contact us"
+        }
+    },
+    "contactPage": {
+        "metadata": {
+            "description": "Contact RoadMinded Systems about intelligent transport systems, transport software, TunnelMaster and technical collaboration."
+        },
+        "hero": {
+            "eyebrow": "Contact",
+            "title": "Let's discuss your next transport initiative.",
+            "description": "The easiest way to reach us is by email. Please share a brief overview of your organisation, systems and objectives, and we will respond promptly."
+        },
+        "email": {
+            "title": "Email",
+            "description": "Please send a brief introduction outlining your organisation, project context and objectives.",
+            "addressLabel": "Email address",
+            "subjectLabel": "Suggested subject",
+            "subject": "Inquiry – Intelligent Transport Systems",
+            "button": "Send us an email"
+        },
+        "include": {
+            "title": "What to include",
+            "description": "To help us understand your context, please describe:",
+            "items": [
+                "Your organisation and role",
+                "The systems or infrastructure involved",
+                "The challenge or opportunity you would like to explore",
+                "Relevant timelines or constraints"
+            ]
+        },
+        "next": {
+            "title": "Next steps",
+            "description": "Your message will be used solely to respond to your enquiry and assess potential next steps. If appropriate, we will propose a call or meeting to continue the discussion."
+        }
+    },
+    "privacyPage": {
+        "metadata": {
+            "description": "Privacy information for the RoadMinded Systems website and business enquiries."
+        },
+        "hero": {
+            "eyebrow": "Privacy",
+            "title": "Privacy Notice",
+            "description": "This notice explains how RoadMinded Systems processes personal data in connection with this website and general business enquiries."
+        },
+        "controller": {
+            "title": "1. Data controller",
+            "emailLabel": "Email"
+        },
+        "data": {
+            "title": "2. Personal data we process",
+            "paragraphs": [
+                "We may process personal data you provide when contacting us, including your name, email address, organisation, role and message content.",
+                "Technical information such as IP addresses and request logs may also be processed by services used to operate and secure the website."
+            ]
+        },
+        "purpose": {
+            "title": "3. Why we process personal data",
+            "paragraphs": [
+                "Personal data may be processed to respond to enquiries, evaluate potential projects and business relationships, communicate with customers and partners, and maintain the security and operation of the website.",
+                "Processing is based on our legitimate interests in conducting and developing our business and, where relevant, taking steps prior to entering into a contract."
+            ]
+        },
+        "retention": {
+            "title": "4. Retention and service providers",
+            "paragraphs": [
+                "Personal data is retained only for as long as necessary for the purposes described above and to meet applicable legal, contractual and accounting requirements.",
+                "We may use service providers for website hosting, email, communications and other technical services. Where personal data is transferred outside the European Economic Area, appropriate safeguards are used as required by applicable data protection law."
+            ]
+        },
+        "cookies": {
+            "title": "5. Cookies and analytics",
+            "description": "RoadMinded Systems does not currently use advertising or marketing cookies on this website. If analytics or other technologies that require additional information or consent are introduced later, this notice will be updated accordingly."
+        },
+        "rights": {
+            "title": "6. Your rights",
+            "paragraphs": [
+                "Depending on the circumstances, you may have the right to access, correct or delete your personal data, restrict or object to its processing, and request data portability.",
+                "You also have the right to lodge a complaint with a competent data protection supervisory authority."
+            ],
+            "contactText": "To exercise your rights or ask questions about your personal data, contact"
+        },
+        "tunnelmaster": {
+            "title": "TunnelMaster service",
+            "description": "This notice applies to the RoadMinded Systems website and general business communications. Personal data processed within TunnelMaster may be subject to separate privacy information and contractual data-processing arrangements."
+        },
+        "updated": "Last updated: 28 August 2026"
+    }
+}
