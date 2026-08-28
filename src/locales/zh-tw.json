@@ -1,0 +1,433 @@
+{
+    "home": {
+        "metadata": {
+            "description": "RoadMinded Systems 為歐洲與亞太市場開發以標準為基礎的 ITS 軟體、TunnelMaster 交通營運分析平台與技術解決方案。"
+        },
+        "hero": {
+            "eyebrow": "以標準為基礎的 ITS 軟體 • 歐洲與亞太地區",
+            "title": "為智慧運輸系統打造軟體",
+            "description": "RoadMinded Systems 協助營運單位、主管機關與技術供應商，將交通與基礎設施資料轉化為更安全、更有效率且更永續的營運能力。",
+            "primaryButton": "與我們聯絡",
+            "secondaryButton": "了解服務"
+        },
+        "product": {
+            "eyebrow": "精選產品",
+            "title": "TunnelMaster",
+            "subtitle": "隧道營運智慧分析",
+            "description": "TunnelMaster 將即時與歷史交通管理資料整合於同一個分析介面，協助營運單位了解道路與隧道環境中的交通控制措施、事件與狀況變化。",
+            "bullets": [
+                "即時與歷史 VMS 資訊監控",
+                "以事件為核心的營運分析",
+                "營運時間軸與歷史回顧",
+                "交通管理報表與統計分析"
+            ],
+            "primaryButton": "了解 TunnelMaster",
+            "loginButton": "登入"
+        },
+        "services": {
+            "title": "我們提供的服務",
+            "description": "以標準為基礎的軟體與技術顧問服務，可整合既有智慧運輸系統與基礎設施平台。",
+            "viewAll": "查看所有服務",
+            "items": [
+                {
+                    "title": "交通與隧道營運分析",
+                    "description": "為隧道與公路營運單位及交通管理中心提供分析與決策支援。",
+                    "bullets": [
+                        "即時與歷史可變資訊標誌（VMS）分析",
+                        "事件與事件後分析",
+                        "標準化系統整合，例如 JSON、DATEX II、OpenLR",
+                        "雲端原生且具擴充性的系統架構"
+                    ]
+                },
+                {
+                    "title": "交通軟體工程",
+                    "description": "設計與開發具互通性、以標準為基礎的交通軟體元件與應用程式。",
+                    "bullets": [
+                        "後端平台與 API 開發",
+                        "以開放資料為基礎的應用程式",
+                        "整合既有 ITS 生態系統",
+                        "資料模型與資料品質架構",
+                        "雲端原生與混合式部署"
+                    ]
+                },
+                {
+                    "title": "ITS 架構與技術顧問",
+                    "description": "為現代 ITS 與數位基礎設施系統提供技術支援，可獨立執行或與特定合作夥伴共同提供。",
+                    "bullets": [
+                        "系統架構與整合設計",
+                        "C-ITS 與 V2X 生態系統規劃",
+                        "道路與街道網路數位化策略",
+                        "開放標準與互通性架構"
+                    ]
+                }
+            ]
+        },
+        "partners": {
+            "title": "亞太地區技術合作夥伴"
+        },
+        "why": {
+            "title": "為什麼選擇 RoadMinded Systems",
+            "description": "我們結合智慧運輸系統的實務經驗、現代軟體工程，以及開放且具互通性的標準。",
+            "items": [
+                {
+                    "title": "ITS 專業經驗",
+                    "description": "具備公路、隧道、交通管理中心與智慧城市生態系統的實務經驗。"
+                },
+                {
+                    "title": "以標準為核心",
+                    "description": "DATEX II、OpenLR 與 C-ITS 規範等國際 ITS 標準，是我們進行系統設計的重要基礎。"
+                },
+                {
+                    "title": "架構與落地實施",
+                    "description": "從概念與系統架構，到實作支援以及與既有 ITS 環境整合。"
+                },
+                {
+                    "title": "聚焦亞太地區",
+                    "description": "以歐洲經驗為基礎，積極參與台灣及更廣泛的亞太市場，支援跨國部署與合作。"
+                }
+            ]
+        },
+        "cta": {
+            "title": "正在規劃下一個交通或基礎設施專案？",
+            "description": "告訴我們您目前的系統、標準與目標，我們可以協助規劃從概念到部署的實際推動方式。",
+            "contactButton": "聯絡我們",
+            "servicesButton": "查看服務"
+        }
+    },
+    "tunnelmaster": {
+        "metadata": {
+            "description": "TunnelMaster 透過即時與歷史營運資料分析，提供交通與隧道營運智慧分析。"
+        },
+        "hero": {
+            "eyebrow": "產品",
+            "title": "TunnelMaster",
+            "subtitle": "隧道營運智慧分析",
+            "description": "TunnelMaster 將即時與歷史交通管理資料整合於同一個分析介面，協助隧道營運單位、交通管理中心與道路主管機關掌握營運事件、交通控制措施及狀況隨時間的變化。",
+            "demoButton": "申請產品展示",
+            "loginButton": "登入",
+            "imageAlt": "TunnelMaster 交通與隧道營運分析儀表板"
+        },
+        "challenge": {
+            "eyebrow": "營運挑戰",
+            "title": "了解發生了什麼，以及為什麼發生",
+            "paragraph1": "交通管理環境會產生大量營運資料，但要了解標誌、交通狀況及事件如何隨時間演變，往往並不容易。",
+            "paragraph2": "TunnelMaster 將這些資訊整合在一起，以支援事後分析、營運檢討及持續改善。",
+            "cardTitle": "從即時狀況到歷史脈絡",
+            "cardText": "除了查看目前的營運狀態，TunnelMaster 也能回顧交通管理措施與狀況如何隨時間變化，例如檢視事件發生前、發生期間及發生後的 VMS 顯示狀態。"
+        },
+        "capabilities": {
+            "eyebrow": "功能",
+            "title": "從交通管理資料取得營運洞察",
+            "items": [
+                {
+                    "title": "即時與歷史 VMS 監控",
+                    "description": "查看指定道路或隧道環境中目前及歷史的可變資訊標誌（VMS）狀態。"
+                },
+                {
+                    "title": "以事件為核心的營運分析",
+                    "description": "分析事件及異常狀況前後的營運資訊，以支援事後檢討。"
+                },
+                {
+                    "title": "營運時間軸",
+                    "description": "查看特定事件發生前、發生期間及發生後，交通管理措施與系統狀態的變化。"
+                },
+                {
+                    "title": "報表與統計分析",
+                    "description": "利用歷史營運資料支援報表製作、定期分析，以及交通管理作業的長期改善。"
+                }
+            ]
+        },
+        "users": {
+            "eyebrow": "適用對象",
+            "title": "道路與隧道營運",
+            "description": "TunnelMaster 適用於負責道路與隧道營運、監控及分析的組織。",
+            "items": [
+                "隧道營運單位",
+                "交通管理中心",
+                "道路主管機關",
+                "營運與維護團隊"
+            ]
+        },
+        "integration": {
+            "eyebrow": "資料與系統整合",
+            "title": "以既有交通資料為基礎",
+            "tags": [
+                "REST APIs",
+                "JSON",
+                "DATEX II",
+                "Open transport data"
+            ],
+            "paragraph1": "TunnelMaster 的設計理念是利用既有交通管理與交通資料來源，而不是建立另一套彼此孤立的營運系統。",
+            "paragraph2": "資料可透過 API 與標準化介面進行整合，使不同來源的資訊能在共同的營運脈絡中進行分析。"
+        },
+        "cta": {
+            "title": "對 TunnelMaster 有興趣嗎？",
+            "description": "歡迎聯絡 RoadMinded Systems，討論您的營運環境、可用資料來源或產品展示需求。",
+            "button": "聯絡我們"
+        }
+    },
+    "servicesPage": {
+        "metadata": {
+            "description": "RoadMinded Systems 提供 ITS 軟體產品、交通軟體工程與技術顧問服務。"
+        },
+        "hero": {
+            "eyebrow": "服務",
+            "title": "智慧運輸系統的軟體產品與技術服務",
+            "description": "我們開發以標準為基礎的交通軟體，並提供可整合既有 ITS 生態系統的技術服務，支援更安全、更有效率且更永續的交通營運。",
+            "primaryButton": "與我們聯絡",
+            "secondaryButton": "了解我們的服務"
+        },
+        "product": {
+            "eyebrow": "產品",
+            "sectionTitle": "交通營運分析平台",
+            "title": "TunnelMaster",
+            "subtitle": "隧道營運智慧分析",
+            "description": "為隧道營運單位、交通管理中心及道路主管機關提供營運分析，將即時與歷史交通管理資料整合於同一個分析介面。",
+            "capabilitiesLabel": "功能",
+            "bullets": [
+                "即時與歷史可變資訊標誌（VMS）監控",
+                "以事件為核心的營運分析",
+                "營運時間軸與歷史回顧",
+                "交通管理報表與統計分析"
+            ],
+            "button": "了解 TunnelMaster"
+        },
+        "services": {
+            "eyebrow": "技術服務",
+            "title": "軟體工程與技術顧問",
+            "description": "以既有 ITS 環境、開放標準與長期可維護性為基礎的實務技術服務。",
+            "capabilitiesLabel": "專業能力",
+            "items": [
+                {
+                    "title": "交通軟體工程",
+                    "description": "設計與開發具互通性、以標準為基礎的交通軟體元件與應用程式。我們協助營運單位與技術供應商建立易於維護且可擴充的 ITS 後端系統。",
+                    "bullets": [
+                        "後端平台與 API 開發",
+                        "以開放資料為基礎的應用程式",
+                        "交通資料流程與資料模型",
+                        "整合既有 ITS 系統",
+                        "雲端原生與混合式系統架構"
+                    ]
+                },
+                {
+                    "title": "ITS 架構與技術顧問",
+                    "description": "為現代 ITS 與數位基礎設施系統提供技術支援。我們協助釐清需求、定義整合策略，並設計具互通性的系統架構。",
+                    "bullets": [
+                        "系統架構與整合設計",
+                        "C-ITS 與 V2X 生態系統規劃",
+                        "道路與街道網路數位化策略",
+                        "開放標準與互通性策略"
+                    ],
+                    "note": "技術顧問服務可由 RoadMinded Systems 獨立提供，或與特定合作夥伴共同執行。"
+                }
+            ]
+        },
+        "partners": {
+            "title": "亞太地區策略合作夥伴",
+            "description": "除了自有軟體與技術服務之外，RoadMinded Systems 亦在亞太市場代表特定歐洲技術合作夥伴，提供先進的 AI 基礎設施維護與 V2X 連網解決方案。",
+            "representedLabel": "台灣與亞太地區合作代表",
+            "websiteButton": "前往網站",
+            "items": [
+                {
+                    "name": "ScanwAi – AI-Powered Infrastructure Intelligence",
+                    "logoSrc": "/logos/scanwai-1.png",
+                    "logoAlt": "ScanwAi Logo",
+                    "logoClassName": "h-10 md:h-12",
+                    "website": "https://scanwai.com",
+                    "description": "利用 AI 提供道路與機場基礎設施維護、狀況監測及資料導向決策支援。",
+                    "bullets": [
+                        "AI 輔助道路與基礎設施狀況監測",
+                        "早期缺陷偵測與維護工作優先排序",
+                        "即時與歷史基礎設施分析",
+                        "行動式現地資料蒐集與資產盤點",
+                        "支援更安全且更有效率的維護決策"
+                    ]
+                },
+                {
+                    "name": "Digitraffic – Connected Mobility & V2X",
+                    "logoSrc": "/logos/digitraffic.png",
+                    "logoAlt": "Digitraffic Logo",
+                    "logoClassName": "h-8 md:h-10",
+                    "website": "https://digitraffic.se",
+                    "description": "提供以標準為基礎的聯網與協同運輸軟體及專業能力，串聯車輛、道路基礎設施、主管機關與智慧城市。",
+                    "bullets": [
+                        "C-ITS 與聯網運輸軟體及專業服務",
+                        "即時數位交通感知與資料交換",
+                        "Link V2X 軟體定義 V2X 通訊平台",
+                        "開放標準、互通性與 C-ITS 資訊安全",
+                        "聯網與自動化運輸服務的開發工具"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "正在開發或現代化您的交通系統？",
+            "description": "告訴我們您的營運環境、既有系統與目標，我們可以一起評估實際可行的推動方式。",
+            "button": "聯絡我們"
+        }
+    },
+    "aboutPage": {
+        "metadata": {
+            "description": "了解 RoadMinded Systems，一家來自芬蘭的 ITS 軟體公司，結合交通專業、現代軟體工程與開放標準，服務歐洲與亞太市場。"
+        },
+        "hero": {
+            "eyebrow": "關於我們",
+            "title": "智慧運輸系統的獨立軟體開發與技術顧問",
+            "description": "RoadMinded Systems 結合交通領域專業、現代軟體工程與開放標準。我們協助營運單位、主管機關與技術供應商設計、開發及改善系統，以支援更安全、更有效率且更永續的交通營運。"
+        },
+        "who": {
+            "title": "我們是誰",
+            "description": "RoadMinded Systems 是一家以軟體為核心的公司，專注於智慧運輸系統（ITS）與現代數位基礎設施的交會領域。",
+            "bullets": [
+                "具備公部門、道路營運單位與交通管理中心相關經驗",
+                "為交通環境提供雲端原生軟體工程",
+                "以開放標準與互通性作為系統架構的重要原則"
+            ],
+            "closing": "我們與營運單位及技術供應商合作，設計具韌性且以標準為基礎的系統，並能順利整合至既有交通生態系統。"
+        },
+        "region": {
+            "title": "聚焦歐洲與亞太地區",
+            "paragraph1": "RoadMinded Systems 成立於芬蘭，並積極在台灣及更廣泛的亞太地區推動業務。",
+            "paragraph2": "我們結合歐洲 ITS 標準與治理架構，以及對在地部署環境的實務理解，促進跨國合作並支援具韌性的系統設計。"
+        },
+        "leadership": {
+            "title": "管理團隊",
+            "name": "Ilkka Kotilainen（家安迪）— Founder & CEO",
+            "paragraphs": [
+                "Ilkka Kotilainen 是軟體工程與交通系統專家，專注於智慧運輸系統（ITS）、交通資料工程及以標準為基礎的軟體設計。",
+                "他的經驗涵蓋公部門、道路營運單位與產業界，並直接參與交通管理中心與隧道營運相關工作，包括系統開發、試點計畫、研究分析，以及具互通性的交通軟體解決方案導入。",
+                "他的工作重點包括實務導向的 ITS 軟體、雲端原生架構、開放標準與長期可維護性，目前業務涵蓋歐洲、台灣及更廣泛的亞太地區。"
+            ],
+            "emailButton": "寄送電子郵件"
+        },
+        "process": {
+            "title": "我們的工作方式",
+            "description": "我們以務實且以問題解決為導向的方式處理交通與基礎設施軟體挑戰，重視清楚的需求、技術可行性與長期可維護性。",
+            "items": [
+                {
+                    "title": "1. 理解與釐清",
+                    "description": "分析既有系統、資料與營運環境，以明確定義技術目標、限制條件與整合需求。"
+                },
+                {
+                    "title": "2. 架構與設計",
+                    "description": "依據開放標準、互通性及資訊安全原則，設計系統架構、資料模型與整合方式。"
+                },
+                {
+                    "title": "3. 開發與迭代",
+                    "description": "針對已確認的需求開發軟體解決方案或分析工具，並透過測試與回饋持續改善，以確保能可靠整合至既有 ITS 環境。"
+                }
+            ]
+        },
+        "principles": {
+            "title": "我們的原則",
+            "description": "以下原則引導我們設計、開發與整合交通系統。",
+            "items": [
+                {
+                    "title": "標準導向",
+                    "description": "優先採用開放且定義明確的標準，以降低供應商綁定，並確保不同系統與利害關係人之間的互通性。"
+                },
+                {
+                    "title": "務實可行",
+                    "description": "我們專注於能在實際技術與組織環境中落地並持續營運的解決方案。"
+                },
+                {
+                    "title": "透明溝通",
+                    "description": "清楚說明假設、取捨與風險，使技術與策略決策能建立在充分資訊之上。"
+                },
+                {
+                    "title": "長期思維",
+                    "description": "設計時考量完整生命週期、可維護性及未來演進，而不只著眼於首次部署。"
+                }
+            ]
+        },
+        "cta": {
+            "title": "歡迎與我們討論您的下一個專案。",
+            "description": "無論是資料分析、系統改善規劃，或開發客製化軟體解決方案，我們都樂於討論如何協助您達成目標。",
+            "button": "聯絡我們"
+        }
+    },
+    "contactPage": {
+        "metadata": {
+            "description": "聯絡 RoadMinded Systems，討論智慧運輸系統、交通軟體、TunnelMaster 或技術合作。"
+        },
+        "hero": {
+            "eyebrow": "聯絡我們",
+            "title": "歡迎討論您的下一個交通專案。",
+            "description": "最方便的聯絡方式是電子郵件。請簡要介紹您的組織、系統與目標，我們會儘快回覆。"
+        },
+        "email": {
+            "title": "電子郵件",
+            "description": "請簡要說明您的組織、專案背景與目標。",
+            "addressLabel": "電子郵件地址",
+            "subjectLabel": "建議主旨",
+            "subject": "合作洽詢 – 智慧運輸系統",
+            "button": "寄送電子郵件"
+        },
+        "include": {
+            "title": "建議提供的資訊",
+            "description": "為了協助我們了解您的需求，建議簡要說明：",
+            "items": [
+                "您的組織與職務角色",
+                "相關系統或基礎設施",
+                "希望探討的問題或機會",
+                "相關時程或限制條件"
+            ]
+        },
+        "next": {
+            "title": "後續流程",
+            "description": "您的訊息僅用於回覆洽詢並評估可能的後續合作。如有需要，我們會建議安排電話或會議進一步討論。"
+        }
+    },
+    "privacyPage": {
+        "metadata": {
+            "description": "RoadMinded Systems 網站及一般商務洽詢相關的隱私權資訊。"
+        },
+        "hero": {
+            "eyebrow": "隱私權",
+            "title": "隱私權聲明",
+            "description": "本聲明說明 RoadMinded Systems 如何處理與本網站及一般商務洽詢相關的個人資料。"
+        },
+        "controller": {
+            "title": "1. 個人資料控管者",
+            "emailLabel": "電子郵件"
+        },
+        "data": {
+            "title": "2. 我們處理的個人資料",
+            "paragraphs": [
+                "當您與我們聯絡時，我們可能處理您提供的個人資料，包括姓名、電子郵件地址、組織、職務角色及訊息內容。",
+                "用於網站營運與資訊安全的服務，也可能處理 IP 位址及請求紀錄等技術資訊。"
+            ]
+        },
+        "purpose": {
+            "title": "3. 個人資料處理目的",
+            "paragraphs": [
+                "個人資料可能用於回覆洽詢、評估潛在專案與商業關係、與客戶及合作夥伴聯繫，以及維護網站的正常營運與資訊安全。",
+                "資料處理的法律依據包括我們經營與發展業務的正當利益，以及在適用情況下為締結契約前所採取的必要措施。"
+            ]
+        },
+        "retention": {
+            "title": "4. 資料保存與服務供應商",
+            "paragraphs": [
+                "個人資料僅在達成上述目的以及符合適用法律、契約與會計要求所必要的期間內保存。",
+                "我們可能使用第三方服務供應商提供網站託管、電子郵件、通訊及其他技術服務。若個人資料被傳輸至歐洲經濟區以外地區，我們將依適用資料保護法規採取適當的保護措施。"
+            ]
+        },
+        "cookies": {
+            "title": "5. Cookie 與網站分析",
+            "description": "RoadMinded Systems 目前不在本網站使用廣告或行銷 Cookie。若未來導入需要額外告知或取得同意的網站分析或其他技術，我們將相應更新本隱私權聲明。"
+        },
+        "rights": {
+            "title": "6. 您的權利",
+            "paragraphs": [
+                "依具體情況，您可能有權查詢、更正或刪除您的個人資料、限制或反對資料處理，以及要求資料可攜。",
+                "您亦有權向有管轄權的資料保護監督機關提出申訴。"
+            ],
+            "contactText": "如欲行使您的權利或詢問個人資料處理相關事項，請聯絡"
+        },
+        "tunnelmaster": {
+            "title": "TunnelMaster 服務",
+            "description": "本隱私權聲明適用於 RoadMinded Systems 網站及一般商務聯絡。TunnelMaster 服務內所處理的個人資料，可能適用另行提供的隱私權資訊及契約中的資料處理條款。"
+        },
+        "updated": "最後更新：2026 年 8 月 28 日"
+    }
+}
