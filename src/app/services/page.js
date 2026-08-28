@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { BarChart3, Server, Layers } from "lucide-react";
 
 export const metadata = {
@@ -289,10 +290,12 @@ export default function Services() {
               >
                 <div className="card-body">
                   <div className="flex items-center justify-between gap-6">
-                    <img
+                    <Image
                       src={partner.logoSrc}
                       alt={partner.logoAlt}
-                      className={`${partner.logoClassName} object-contain`}
+                      width={180}
+                      height={60}
+                      className={`${partner.logoClassName} w-auto object-contain`}
                     />
 
                     <div className="text-xs opacity-60 text-right">

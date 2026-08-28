@@ -2,6 +2,8 @@ import Link from "next/link";
 
 export const metadata = {
     title: "Contact",
+    description:
+        "Contact RoadMinded Systems about intelligent transport systems, transport software, TunnelMaster and technical collaboration.",
 };
 
 export default function Contact() {
@@ -10,7 +12,7 @@ export default function Contact() {
 
     return (
         <div className="bg-base-100">
-            
+
             {/* Hero / Intro */}
             <section className="bg-gradient-to-b from-base-200 to-base-100">
                 <div className="max-w-6xl mx-auto px-6 py-20 md:py-24">
@@ -19,7 +21,7 @@ export default function Contact() {
                             Contact
                         </p>
                         <h1 className="mt-4 text-4xl md:text-5xl font-bold leading-tight">
-                            Let's discuss your next transport initiative.
+                            Let's discuss your transport systems and objectives.
                         </h1>
                         <p className="mt-5 text-lg md:text-xl opacity-80">
                             The easiest way to reach us is by email. Please share a brief
@@ -53,7 +55,7 @@ export default function Contact() {
                                 <div>
                                     <div className="font-medium">Suggested subject</div>
                                     <div className="mt-1 opacity-80">
-                                        “Inquiry - Intelligent Transport / Smart Infrastructure”
+                                        “Inquiry - Intelligent Transport Systems”
                                     </div>
                                 </div>
                             </div>
@@ -61,11 +63,11 @@ export default function Contact() {
                             <div className="pt-4">
                                 <a
                                     href={`mailto:${contactEmail}?subject=${encodeURIComponent(
-                                        "Inquiry – Intelligent transport / smart infrastructure"
+                                        "Inquiry - Intelligent Transport Systems"
                                     )}`}
                                     className="btn btn-primary w-full md:w-auto"
                                 >
-                                    Open email client
+                                    Send us an email
                                 </a>
                             </div>
                         </div>
