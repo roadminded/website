@@ -101,7 +101,7 @@
         "hero": {
             "eyebrow": "Tuote",
             "title": "Tunnelmestari",
-            "subtitle": "Tunnel Operations Intelligence",
+            "subtitle": "Tunnelien operoinnin tilannekuva ja analytiikka",
             "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
             "demoButton": "Pyydä esittely",
             "loginButton": "Kirjaudu",
@@ -113,7 +113,7 @@
             "paragraph1": "Liikenteenhallintaympäristöt tuottavat paljon operatiivista dataa, mutta opasteiden, liikennetilanteen ja tapahtumien kehityksen ymmärtäminen ajan kuluessa voi olla vaikeaa.",
             "paragraph2": "Tunnelmestari kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
             "cardTitle": "Reaaliaikaisesta tilanteesta historialliseen kokonaiskuvaan",
-            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan Tunnelmestari mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi VMS-opasteiden tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
+            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan Tunnelmestari mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi vaihtuvien opasteiden (VMS) tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
         },
         "capabilities": {
             "eyebrow": "Ominaisuudet",
@@ -121,7 +121,7 @@
             "items": [
                 {
                     "title": "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
-                    "description": "Tarkastele nykyisiä ja historiallisia Variable Message Sign -opasteiden tiloja valitulla tie- tai tunnelialueella."
+                    "description": "Tarkastele valitun tie- tai tunnelialueen vaihtuvien opasteiden (VMS) nykyisiä ja historiallisia tiloja."
                 },
                 {
                     "title": "Tapahtumiin keskittyvä operatiivinen analyysi",
@@ -292,11 +292,11 @@
         },
         "leadership": {
             "title": "Johto",
-            "name": "Ilkka (家安迪) Kotilainen — Perustaja",
+            "name": "Ilkka Kotilainen (家安迪) — Perustaja ja toimitusjohtaja",
             "paragraphs": [
-                "Ilkka Kotilainen on ohjelmistoinsinööri ja liikennejärjestelmien asiantuntija, jonka osaamisen painopisteitä ovat älykkään liikenteen järjestelmät (ITS), liikennedatan käsittely ja standardipohjainen ohjelmistosuunnittelu.",
-                "Hänen kokemuksensa kattaa viranomaisia, tieoperaattoreita ja teollisuutta sekä käytännön yhteistyötä liikenteenhallintakeskusten ja tunnelitoimijoiden kanssa järjestelmäpiloteissa, selvityksissä ja yhteentoimivien ohjelmistoratkaisujen kehittämisessä.",
-                "Työssä korostuvat pilvipohjainen arkkitehtuuri, avoimet standardit ja pitkäaikainen ylläpidettävyys kestävien ja tulevaisuuden tarpeisiin mukautuvien liikennejärjestelmien tukena."
+                "Ilkka Kotilainen on ohjelmistokehityksen ja liikennejärjestelmien asiantuntija, jonka osaamisen painopisteitä ovat älykkään liikenteen järjestelmät (ITS), liikennedatan käsittely ja standardipohjainen ohjelmistosuunnittelu.",
+                "Hänen kokemuksensa kattaa viranomaisia, tieoperaattoreita ja teollisuutta sekä käytännön työtä liikenteenhallintakeskusten ja tunnelitoimintojen parissa järjestelmäkehityksen, pilottien, selvitysten ja yhteentoimivien liikennejärjestelmien ohjelmistoratkaisujen toteutuksen kautta.",
+                "Hänen työssään korostuvat käytännönläheiset ITS-ohjelmistot, pilvipohjainen arkkitehtuuri, avoimet standardit ja pitkäaikainen ylläpidettävyys. Nykyinen toiminta ulottuu Eurooppaan, Taiwaniin ja laajemmin Aasian-Tyynenmeren alueelle."
             ],
             "emailButton": "Lähetä sähköpostia"
         },

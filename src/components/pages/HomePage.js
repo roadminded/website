@@ -267,7 +267,7 @@ export default function HomePage({ content, localePrefix = "" }) {
                             <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                                 <Link
                                     href={localPath("/contact")}
-                                    className="btn btn-primary flex-1"
+                                    className="btn btn-primary px-6 py-3"
                                 >
                                     {content.cta.contactButton}
                                 </Link>

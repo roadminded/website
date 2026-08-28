@@ -292,11 +292,11 @@
         },
         "leadership": {
             "title": "Leadership",
-            "name": "Ilkka (家安迪) Kotilainen — Founder",
+            "name": "Ilkka Kotilainen (家安迪) — Founder & CEO",
             "paragraphs": [
                 "Ilkka Kotilainen is a software engineer and transport systems specialist focused on Intelligent Transport Systems (ITS), transport data engineering and standards-based software design.",
-                "His experience spans public authorities, highway operators and industry, working directly with traffic management centres and tunnel operations teams on system pilots, studies and the development of interoperable, standards-compliant software solutions.",
-                "His work emphasizes cloud-native architecture, open standards and long-term maintainability to support resilient and future-proof transport systems."
+                "His experience spans public authorities, highway operators and industry, working directly with traffic management centres and tunnel operations through system development, pilots, studies and the implementation of interoperable transport software solutions.",
+                "His work focuses on practical ITS software, cloud-native architecture, open standards and long-term maintainability, with current activities spanning Europe, Taiwan and the wider Asia-Pacific region."
             ],
             "emailButton": "Email me"
         },

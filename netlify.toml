@@ -1,0 +1,23 @@
+[[redirects]]
+from = "https://roadminded.fi/*"
+to = "https://roadminded.com/fi/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://roadminded.fi/*"
+to = "https://roadminded.com/fi/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://www.roadminded.fi/*"
+to = "https://roadminded.com/fi/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://www.roadminded.fi/*"
+to = "https://roadminded.com/fi/:splat"
+status = 301
+force = true
