@@ -2,7 +2,6 @@ import HomePage from "@/components/pages/HomePage";
 import fi from "@/locales/fi.json";
 
 export const metadata = {
-    title: "RoadMinded Systems",
     description: fi.home.metadata.description,
     alternates: {
         canonical: "https://roadminded.com/fi",
