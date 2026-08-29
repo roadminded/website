@@ -4,6 +4,14 @@ import en from "@/locales/en.json";
 export const metadata = {
     title: "TunnelMaster",
     description: en.tunnelmaster.metadata.description,
+    alternates: {
+        canonical: "https://roadminded.com/tunnelmaster",
+        languages: {
+            en: "https://roadminded.com/tunnelmaster",
+            fi: "https://roadminded.com/fi/tunnelmaster",
+            "zh-TW": "https://roadminded.com/zh-tw/tunnelmaster",
+        },
+    },
 };
 
 export default function TunnelMaster() {
