@@ -53,6 +53,7 @@ export default function TunnelMasterPage({
                                 alt={content.hero.imageAlt}
                                 width={1200}
                                 height={750}
+                                sizes="(max-width: 1024px) calc(100vw - 48px), 560px"
                                 className="w-full h-auto rounded-xl"
                                 priority
                             />

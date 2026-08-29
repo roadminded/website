@@ -80,7 +80,7 @@ export default function SiteFooter() {
                                 </a>
                             </div>
 
-                            <div className="mt-2 flex items-center gap-2 text-sm opacity-80">
+                            <div className="mt-2 flex items-center gap-2 text-sm">
                                 <a
                                     href="https://www.linkedin.com/company/roadminded"
                                     target="_blank"
@@ -90,7 +90,7 @@ export default function SiteFooter() {
                                     LinkedIn
                                 </a>
 
-                                <span className="opacity-30">·</span>
+                                <span className="opacity-50">·</span>
 
                                 <a
                                     href="https://x.com/road_minded"
@@ -104,7 +104,7 @@ export default function SiteFooter() {
 
                         </div>
 
-                        <div className="mt-4 opacity-60">
+                        <div className="mt-4 opacity-80">
                             © {new Date().getFullYear()} RoadMinded Systems
                         </div>
                     </div>

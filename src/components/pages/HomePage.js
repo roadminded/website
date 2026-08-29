@@ -125,6 +125,7 @@ export default function HomePage({ content, localePrefix = "" }) {
                                 alt="TunnelMaster traffic and tunnel operations dashboard"
                                 width={1200}
                                 height={750}
+                                sizes="(max-width: 1024px) calc(100vw - 48px), 560px"
                                 className="w-full h-auto rounded-xl"
                             />
                         </div>
