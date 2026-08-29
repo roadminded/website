@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import SiteNavigation from "@/components/SiteNavigation";
 import SiteFooter from "@/components/SiteFooter";
+import HtmlLangUpdater from "@/components/HtmlLangUpdater";
 
 
 const geistSans = Geist({
@@ -30,6 +31,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        { /* Update the HTML `lang` attribute based on the current pathname */}
+        <HtmlLangUpdater />
+
         {/* Navbar */}
         <SiteNavigation />
 
