@@ -10,6 +10,7 @@ export const metadata = {
             en: "https://roadminded.com/tunnelmaster",
             fi: "https://roadminded.com/fi/tunnelmaster",
             "zh-TW": "https://roadminded.com/zh-tw/tunnelmaster",
+            "x-default": "https://roadminded.com/tunnelmaster",
         },
     },
 };

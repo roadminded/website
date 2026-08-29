@@ -10,6 +10,7 @@ export const metadata = {
             en: "https://roadminded.com/contact",
             fi: "https://roadminded.com/fi/contact",
             "zh-TW": "https://roadminded.com/zh-tw/contact",
+            "x-default": "https://roadminded.com/contact",
         },
     },
 };
