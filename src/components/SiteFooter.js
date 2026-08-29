@@ -79,6 +79,29 @@ export default function SiteFooter() {
                                     info@roadminded.com
                                 </a>
                             </div>
+
+                            <div className="mt-2 flex items-center gap-2 text-sm opacity-80">
+                                <a
+                                    href="https://www.linkedin.com/company/roadminded"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link link-hover font-medium"
+                                >
+                                    LinkedIn
+                                </a>
+
+                                <span className="opacity-30">·</span>
+
+                                <a
+                                    href="https://x.com/road_minded"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="link link-hover font-medium"
+                                >
+                                    X
+                                </a>
+                            </div>
+
                         </div>
 
                         <div className="mt-4 opacity-60">
