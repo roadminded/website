@@ -55,8 +55,8 @@
                     "description": "Teknistä asiantuntijatukea moderneihin älyliikenteen ja digitaalisen infrastruktuurin järjestelmiin itsenäisesti tai yhteistyössä valittujen kumppaneiden kanssa.",
                     "bullets": [
                         "Järjestelmäarkkitehtuuri ja integraatiosuunnittelu",
-                        "C-ITS- ja V2X-ekosysteemien suunnittelu",
-                        "Tie- ja katuverkon digitalisaatiostrategiat",
+                        "C-ITS- ja V2X-pilottien kehitys ja prototypointi",
+                        "Liikennedatan integrointi ja yhteentoimivuuden testaus",
                         "Avoimet standardit ja yhteentoimivuus"
                     ]
                 }
@@ -214,8 +214,8 @@
                     "description": "Teknistä tukea nykyaikaisiin älyliikenteen ja digitaalisen infrastruktuurin järjestelmiin. Autamme määrittelemään vaatimuksia, integraatiostrategioita ja yhteentoimivia järjestelmäarkkitehtuureja.",
                     "bullets": [
                         "Järjestelmäarkkitehtuuri ja integraatiosuunnittelu",
-                        "C-ITS- ja V2X-ekosysteemien suunnittelu",
-                        "Tie- ja katuverkon digitalisaatiostrategiat",
+                        "C-ITS- ja V2X-pilottien kehitys ja prototypointi",
+                        "Liikennedatan integrointi ja yhteentoimivuuden testaus",
                         "Avoimet standardit ja yhteentoimivuus"
                     ],
                     "note": "Asiantuntijatyö voidaan toteuttaa itsenäisesti tai yhteistyössä valittujen kumppaneiden kanssa."

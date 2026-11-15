@@ -55,8 +55,8 @@
                     "description": "Technical guidance for modern ITS and digital infrastructure systems, delivered independently or in collaboration with selected partners.",
                     "bullets": [
                         "System architecture and integration design",
-                        "C-ITS and V2X ecosystem planning",
-                        "Road and street network digitalisation strategy",
+                        "C-ITS and V2X pilot development and prototyping",
+                        "Traffic data integration and interoperability testing",
                         "Open standards and interoperability frameworks"
                     ]
                 }
@@ -214,8 +214,8 @@
                     "description": "Technical guidance for modern ITS and digital infrastructure systems. We help clarify requirements, define integration strategies and design interoperable system architectures.",
                     "bullets": [
                         "System architecture and integration design",
-                        "C-ITS and V2X ecosystem planning",
-                        "Road and street network digitalisation strategy",
+                        "C-ITS and V2X pilot development and prototyping",
+                        "Traffic data integration and interoperability testing",
                         "Open standards and interoperability strategy"
                     ],
                     "note": "Advisory engagements may be delivered independently or in collaboration with selected partners."
