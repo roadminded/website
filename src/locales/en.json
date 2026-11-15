@@ -109,7 +109,7 @@
         },
         "challenge": {
             "eyebrow": "Operational challenge",
-            "title": "Understand what happened — and why",
+            "title": "Understand what happened and how traffic control responded",
             "paragraph1": "Traffic management environments generate large amounts of operational data, but understanding how signs, traffic conditions and events developed over time can be difficult.",
             "paragraph2": "TunnelMaster brings this information together to support retrospective analysis, operational review and continuous improvement.",
             "cardTitle": "From live situation to historical context",

@@ -100,7 +100,7 @@
         },
         "hero": {
             "eyebrow": "Tuote",
-            "title": "Tunnelmestari",
+            "title": "Tunnelimestari",
             "subtitle": "Tunnelien operoinnin tilannekuva ja analytiikka",
             "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
             "demoButton": "Pyydä esittely",
@@ -111,9 +111,9 @@
             "eyebrow": "Operatiivinen haaste",
             "title": "Ymmärrä mitä tapahtui — ja miksi",
             "paragraph1": "Liikenteenhallintaympäristöt tuottavat paljon operatiivista dataa, mutta opasteiden, liikennetilanteen ja tapahtumien kehityksen ymmärtäminen ajan kuluessa voi olla vaikeaa.",
-            "paragraph2": "Tunnelmestari kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
+            "paragraph2": "Tunnelimestari kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
             "cardTitle": "Reaaliaikaisesta tilanteesta historialliseen kokonaiskuvaan",
-            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan Tunnelmestari mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi vaihtuvien opasteiden (VMS) tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
+            "cardText": "Pelkkään nykytilanteeseen keskittymisen sijaan Tunnelimestari mahdollistaa liikenteenhallinnan toimenpiteiden ja olosuhteiden muutosten tarkastelun ajan kuluessa — esimerkiksi vaihtuvien opasteiden (VMS) tilojen tarkastelun ennen tapahtumaa, sen aikana ja sen jälkeen."
         },
         "capabilities": {
             "eyebrow": "Ominaisuudet",
@@ -140,7 +140,7 @@
         "users": {
             "eyebrow": "Kenelle",
             "title": "Tie- ja tunnelitoimintoihin",
-            "description": "Tunnelmestari on suunniteltu organisaatioille, jotka vastaavat tie- ja tunnelialueiden operoinnista, valvonnasta ja analysoinnista.",
+            "description": "Tunnelimestari on suunniteltu organisaatioille, jotka vastaavat tie- ja tunnelialueiden operoinnista, valvonnasta ja analysoinnista.",
             "items": [
                 "Tunnelioperaattorit",
                 "Liikenteenhallintakeskukset",
@@ -157,11 +157,11 @@
                 "DATEX II",
                 "Avoin liikennedata"
             ],
-            "paragraph1": "Tunnelmestari on suunniteltu hyödyntämään olemassa olevia liikenteenhallinnan ja liikenteen tietolähteitä sen sijaan, että se muodostaisi uuden erillisen operatiivisen järjestelmän.",
+            "paragraph1": "Tunnelimestari on suunniteltu hyödyntämään olemassa olevia liikenteenhallinnan ja liikenteen tietolähteitä sen sijaan, että se muodostaisi uuden erillisen operatiivisen järjestelmän.",
             "paragraph2": "Dataa voidaan integroida rajapintojen ja standardipohjaisten liityntöjen kautta, jolloin eri lähteistä tulevaa tietoa voidaan analysoida yhteisessä operatiivisessa kontekstissa."
         },
         "cta": {
-            "title": "Kiinnostuitko Tunnelmestarista?",
+            "title": "Kiinnostuitko Tunnelimestarista?",
             "description": "Ota yhteyttä RoadMinded Systemsiin ja keskustellaan operatiivisesta ympäristöstäsi, käytettävissä olevista tietolähteistä tai mahdollisesta esittelystä.",
             "button": "Ota yhteyttä"
         }
