@@ -17,8 +17,8 @@
             "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa ymmärtämään liikenteen ohjaustoimenpiteitä, tapahtumia ja muuttuvia olosuhteita tie- ja tunneliympäristöissä.",
             "bullets": [
                 "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
-                "Tapahtumiin keskittyvä operatiivinen analyysi",
-                "Operatiiviset aikajanat ja historiatarkastelu",
+                "Liikennetiedotteiden historia ja muutokset",
+                "Historiallisten tilanteiden tarkastelu",
                 "Liikenteenhallinnan raportointi ja tilastot"
             ],
             "primaryButton": "Tutustu Tunnelimestariin",
@@ -102,7 +102,7 @@
             "eyebrow": "Tuote",
             "title": "Tunnelimestari",
             "subtitle": "Tunnelien operoinnin tilannekuva ja analytiikka",
-            "description": "Tunnelimestari kokoaa reaaliaikaisen ja historiallisen liikenteenhallintadatan yhteen analyysinäkymään ja auttaa tunnelioperaattoreita, liikenteenhallintakeskuksia ja tieviranomaisia ymmärtämään operatiivisia tapahtumia, liikenteen ohjaustoimenpiteitä ja olosuhteiden muutoksia ajan kuluessa.",
+            "description": "Tunnelimestari on tuotantokäytössä Suomessa. Palvelu yhdistää vaihtuvien liikennemerkkien (VMS) reaaliaikaisia ja saatavilla olevia historiatietoja sekä liikennetiedotteiden historiaa, mikä auttaa tieviranomaisia ja tunnelioperaattoreita tarkastelemaan liikenteenhallinnan tilanteita ja niiden kehitystä.",
             "demoButton": "Pyydä esittely",
             "loginButton": "Kirjaudu",
             "imageAlt": "Tunnelimestarin liikenteen ja tunnelitoimintojen analyysinäkymä"
@@ -124,12 +124,12 @@
                     "description": "Tarkastele valitun tie- tai tunnelialueen vaihtuvien opasteiden (VMS) nykyisiä ja historiallisia tiloja."
                 },
                 {
-                    "title": "Tapahtumiin keskittyvä operatiivinen analyysi",
-                    "description": "Analysoi onnettomuuksiin, häiriöihin ja poikkeaviin tilanteisiin liittyvää operatiivista tietoa jälkikäteistä tarkastelua varten."
+                    "title": "Liikennetiedotteiden historia",
+                    "description": "Tarkastele tallennettuja liikennetiedotteita ja niiden muutoksia tapahtumien jälkikäteistä analysointia varten."
                 },
                 {
-                    "title": "Operatiiviset aikajanat",
-                    "description": "Tarkastele, miten liikenteenhallinnan toimenpiteet ja järjestelmien tilat muuttuivat ennen valittua tapahtumaa, sen aikana ja sen jälkeen."
+                    "title": "Historiallisten tilanteiden tarkastelu",
+                    "description": "Valitse aiempi ajankohta ja tarkastele sen saatavilla olevia VMS-tiloja ja liikennetiedotteita."
                 },
                 {
                     "title": "Raportointi ja tilastot",
@@ -186,8 +186,8 @@
             "capabilitiesLabel": "Ominaisuudet",
             "bullets": [
                 "VMS-opasteiden reaaliaikainen ja historiallinen seuranta",
-                "Tapahtumiin keskittyvä operatiivinen analyysi",
-                "Operatiiviset aikajanat ja historiatarkastelu",
+                "Liikennetiedotteiden historia ja muutokset",
+                "Historiallisten tilanteiden tarkastelu",
                 "Liikenteenhallinnan raportointi ja tilastot"
             ],
             "button": "Tutustu Tunnelimestariin"

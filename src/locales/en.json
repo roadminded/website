@@ -17,8 +17,8 @@
             "description": "TunnelMaster brings real-time and historical traffic management data into one analytical view, helping operators understand traffic control actions, incidents and changing conditions across road and tunnel environments.",
             "bullets": [
                 "Real-time and historical VMS monitoring",
-                "Incident-focused operational analysis",
-                "Operational timelines and historical review",
+                "Traffic announcement history and updates",
+                "Historical situation review",
                 "Traffic management reporting and statistics"
             ],
             "primaryButton": "Explore TunnelMaster",
@@ -102,7 +102,7 @@
             "eyebrow": "Product",
             "title": "TunnelMaster",
             "subtitle": "Tunnel Operations Intelligence",
-            "description": "TunnelMaster brings real-time and historical traffic management data into one analytical view, helping tunnel operators, traffic management centres and road authorities understand operational events, traffic control actions and changing conditions over time.",
+            "description": "TunnelMaster is in operational use in Finland. It brings together real-time and available historical Variable Message Sign (VMS) data and traffic announcement records, helping road authorities and tunnel operators review traffic management situations and their development over time.",
             "demoButton": "Request a demonstration",
             "loginButton": "Login",
             "imageAlt": "TunnelMaster traffic and tunnel operations dashboard"
@@ -124,12 +124,12 @@
                     "description": "Review current and historical Variable Message Sign states across the selected road or tunnel environment."
                 },
                 {
-                    "title": "Incident-focused operational analysis",
-                    "description": "Analyse operational information around incidents and unusual situations to support retrospective review."
+                    "title": "Traffic announcement history",
+                    "description": "Review recorded traffic announcements and their updates over time to support incident and post-event analysis."
                 },
                 {
-                    "title": "Operational timelines",
-                    "description": "Examine how traffic management actions and system states changed before, during and after selected events."
+                    "title": "Historical situation review",
+                    "description": "Select a past point in time to examine available VMS states and traffic announcement information."
                 },
                 {
                     "title": "Reporting and statistics",
@@ -186,8 +186,8 @@
             "capabilitiesLabel": "Capabilities",
             "bullets": [
                 "Real-time and historical Variable Message Sign (VMS) monitoring",
-                "Incident-focused operational analysis",
-                "Operational timelines and historical review",
+                "Traffic announcement history and updates",
+                "Historical situation review",
                 "Traffic management reporting and statistics"
             ],
             "button": "Explore TunnelMaster"
