@@ -205,13 +205,22 @@ export default function ServicesPage({
                             >
                                 <div className="card-body">
                                     <div className="flex items-center justify-between gap-6">
-                                        <Image
-                                            src={partner.logoSrc}
-                                            alt={partner.logoAlt}
-                                            width={180}
-                                            height={60}
-                                            className={`${partner.logoClassName} w-auto object-contain`}
-                                        />
+                                        <a
+                                            href={partner.website}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            aria-label={`Visit ${partner.name} website`}
+                                            className="inline-block hover:opacity-80 transition-opacity"
+                                        >
+                                            <Image
+                                                src={partner.logoSrc}
+                                                alt={partner.logoAlt}
+                                                width={180}
+                                                height={60}
+                                                className={`${partner.logoClassName} w-auto object-contain`}
+                                            />
+                                        </a>
+
 
                                         <div className="text-xs opacity-60 text-right">
                                             {content.partners.representedLabel}

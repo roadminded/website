@@ -9,13 +9,16 @@ const PARTNERS = [
         name: "ScanwAi",
         logoSrc: "/logos/scanwai-1.png",
         logoAlt: "ScanwAi",
+        website: "https://scanwai.com",
     },
     {
         name: "Digitraffic / Link V2X",
         logoSrc: "/logos/digitraffic.png",
         logoAlt: "Digitraffic / Link V2X",
+        website: "https://digitraffic.se",
     },
 ];
+
 
 export default function HomePage({ content, localePrefix = "" }) {
     const localPath = (path) => `${localePrefix}${path}`;
@@ -208,9 +211,13 @@ export default function HomePage({ content, localePrefix = "" }) {
 
                     <div className="mt-4 flex flex-wrap items-center gap-10">
                         {PARTNERS.map((partner) => (
-                            <div
+                            <a
                                 key={partner.name}
-                                className="flex items-center gap-3 opacity-80"
+                                href={partner.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`Visit ${partner.name} website`}
+                                className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity"
                             >
                                 <Image
                                     src={partner.logoSrc}
@@ -219,8 +226,9 @@ export default function HomePage({ content, localePrefix = "" }) {
                                     height={40}
                                     className="h-8 md:h-10 w-auto object-contain"
                                 />
-                            </div>
+                            </a>
                         ))}
+
                     </div>
                 </div>
             </section>
