@@ -109,7 +109,7 @@
         },
         "challenge": {
             "eyebrow": "Operatiivinen haaste",
-            "title": "Ymmärrä mitä tapahtui — ja miksi",
+            "title": "Mitä tapahtui ja miten liikennettä ohjattiin",
             "paragraph1": "Liikenteenhallintaympäristöt tuottavat paljon operatiivista dataa, mutta opasteiden, liikennetilanteen ja tapahtumien kehityksen ymmärtäminen ajan kuluessa voi olla vaikeaa.",
             "paragraph2": "Tunnelimestari kokoaa tämän tiedon yhteen ja tukee jälkianalyysiä, operatiivista tarkastelua ja toiminnan jatkuvaa kehittämistä.",
             "cardTitle": "Reaaliaikaisesta tilanteesta historialliseen kokonaiskuvaan",
